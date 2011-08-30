@@ -85,8 +85,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 336365361;
-			PBXWorkspaceStateSaveDate = 336365361;
+			PBXPerProjectTemplateStateSaveDate = 336365734;
+			PBXWorkspaceStateSaveDate = 336365734;
 		};
 		perUserProjectItems = {
 			B20C6C03140C87D800593A6B /* PBXTextBookmark */ = B20C6C03140C87D800593A6B /* PBXTextBookmark */;
@@ -113,7 +113,6 @@
 			B2194653140C871E00CC80D4 /* PBXBookmark */ = B2194653140C871E00CC80D4 /* PBXBookmark */;
 			B2194654140C871E00CC80D4 /* PBXBookmark */ = B2194654140C871E00CC80D4 /* PBXBookmark */;
 			B2194655140C871E00CC80D4 /* PBXTextBookmark */ = B2194655140C871E00CC80D4 /* PBXTextBookmark */;
-			B2194657140C871E00CC80D4 /* PBXTextBookmark */ = B2194657140C871E00CC80D4 /* PBXTextBookmark */;
 			B2283FE9140B4111002EB2A8 /* PlistBookmark */ = B2283FE9140B4111002EB2A8 /* PlistBookmark */;
 			B2283FF0140B4111002EB2A8 /* PBXBookmark */ = B2283FF0140B4111002EB2A8 /* PBXBookmark */;
 			B2283FFB140B424A002EB2A8 /* PBXBookmark */ = B2283FFB140B424A002EB2A8 /* PBXBookmark */;
@@ -122,6 +121,7 @@
 			B2284025140B4B36002EB2A8 /* PBXTextBookmark */ = B2284025140B4B36002EB2A8 /* PBXTextBookmark */;
 			B2284026140B4B36002EB2A8 /* PBXTextBookmark */ = B2284026140B4B36002EB2A8 /* PBXTextBookmark */;
 			B2284028140B4B36002EB2A8 /* PBXTextBookmark */ = B2284028140B4B36002EB2A8 /* PBXTextBookmark */;
+			B25D7077140C8B6F0079A863 /* PBXTextBookmark */ = B25D7077140C8B6F0079A863 /* PBXTextBookmark */;
 			B277266814036421004751A1 /* PBXBookmark */ = B277266814036421004751A1 /* PBXBookmark */;
 			B27726A11403664A004751A1 /* PBXBookmark */ = B27726A11403664A004751A1 /* PBXBookmark */;
 			B277271914037571004751A1 /* PBXTextBookmark */ = B277271914037571004751A1 /* PBXTextBookmark */;
@@ -138,7 +138,7 @@
 		fRef = B29BC138140224F300A136FA /* AsthmapediaViewController.m */;
 		name = "AsthmapediaViewController.m: 43";
 		rLen = 0;
-		rLoc = 1180;
+		rLoc = 1218;
 		rType = 0;
 		vrLen = 1039;
 		vrLoc = 845;
@@ -391,16 +391,6 @@
 		vrLen = 1207;
 		vrLoc = 1176;
 	};
-	B2194657140C871E00CC80D4 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = B29BC138140224F300A136FA /* AsthmapediaViewController.m */;
-		name = "AsthmapediaViewController.m: 43";
-		rLen = 0;
-		rLoc = 1180;
-		rType = 0;
-		vrLen = 1072;
-		vrLoc = 845;
-	};
 	B225D9751406276800DF3B3F /* NewAnimalFurShould.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1279, 520}}";
@@ -494,6 +484,16 @@
 		rType = 0;
 		vrLen = 509;
 		vrLoc = 0;
+	};
+	B25D7077140C8B6F0079A863 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B29BC138140224F300A136FA /* AsthmapediaViewController.m */;
+		name = "AsthmapediaViewController.m: 46";
+		rLen = 0;
+		rLoc = 1341;
+		rType = 0;
+		vrLen = 1117;
+		vrLoc = 632;
 	};
 	B277264A1403631C004751A1 /* DustMite.h */ = {
 		uiCtxt = {
@@ -609,9 +609,9 @@
 	};
 	B29BC138140224F300A136FA /* AsthmapediaViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1279, 988}}";
-			sepNavSelRange = "{1180, 0}";
-			sepNavVisRange = "{845, 1039}";
+			sepNavIntBoundsRect = "{{0, 0}, {1279, 1001}}";
+			sepNavSelRange = "{1341, 0}";
+			sepNavVisRange = "{632, 1117}";
 		};
 	};
 	B29BC1531402264F00A136FA /* PBXTextBookmark */ = {

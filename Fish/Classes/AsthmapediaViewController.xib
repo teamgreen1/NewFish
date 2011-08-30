@@ -80,7 +80,7 @@
 					<object class="IBUIScrollView" id="403778691">
 						<reference key="NSNextResponder" ref="766721923"/>
 						<int key="NSvFlags">268</int>
-						<string key="NSFrame">{{69, 64}, {624, 752}}</string>
+						<string key="NSFrame">{{69, 64}, {624, 844}}</string>
 						<reference key="NSSuperview" ref="766721923"/>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<bool key="IBUIMultipleTouchEnabled">YES</bool>
@@ -199,7 +199,7 @@
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<string>AsthmapediaViewController</string>
 					<string>UIResponder</string>
-					<string>{{249, 91}, {783, 915}}</string>
+					<string>{{382, 91}, {783, 915}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<object class="NSAffineTransform">

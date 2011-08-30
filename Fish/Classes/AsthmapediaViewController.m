@@ -38,11 +38,12 @@
 
 	[scrollView setScrollEnabled:YES];
 	[scrollView setContentSize:CGSizeMake(5650, 360)];
+	[scrollView setClipsToBounds:FALSE];
 	
-	CGPoint point = CGPointMake(100,100);
+	CGPoint point = CGPointMake(375,400);
 	UIImage *MyImage = [UIImage imageNamed:@"asthmapedia_placeholder.jpg"];
 	UIImageView *imageView = [[UIImageView alloc] initWithImage:MyImage];
-	imageView.frame = CGRectMake(0, 0, 50, 50);
+	imageView.frame = CGRectMake(0, 0, 700, 875);
 	imageView.center = point;
 	[scrollView addSubview:imageView];
 	[imageView release]; 
