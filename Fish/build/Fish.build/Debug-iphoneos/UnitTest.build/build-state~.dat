@@ -1,0 +1,31 @@
+TUnitTest
+v7
+r1
+
+N/Users/bjh31/Documents/Fish/Fish/build/Debug-iphoneos/UnitTest.octest
+t2
+s0
+
+N/Users/bjh31/Documents/Fish/Fish/build/Debug-iphoneos/UnitTest.octest/Info.plist
+t2
+s0
+
+N/Users/bjh31/Documents/Fish/Fish/build/Fish.build/Debug-iphoneos/UnitTest.build/Script-03F32F4F140333440099FECB.sh
+c00000000000000000000000000000000
+t2
+s0
+
+NUnitTest-Info.plist
+c00000000000000000000000000000000
+t2
+s0
+
+CPhaseScriptExecution "Run Script" /Users/bjh31/Documents/Fish/Fish/build/Fish.build/Debug-iphoneos/UnitTest.build/Script-03F32F4F140333440099FECB.sh
+r0
+
+CProcessInfoPlistFile /Users/bjh31/Documents/Fish/Fish/build/Debug-iphoneos/UnitTest.octest/Info.plist UnitTest-Info.plist
+r0
+
+CTouch /Users/bjh31/Documents/Fish/Fish/build/Debug-iphoneos/UnitTest.octest
+r0
+

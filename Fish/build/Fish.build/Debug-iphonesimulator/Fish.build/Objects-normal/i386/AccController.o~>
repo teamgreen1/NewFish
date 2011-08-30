@@ -1,0 +1,2 @@
+/Users/dl106/Desktop/Fish/Classes/AccController.m: In function '-[AccController init]':
+/Users/dl106/Desktop/Fish/Classes/AccController.m:22: warning: class 'AccController' does not implement the 'UIAccelerometerDelegate' protocol

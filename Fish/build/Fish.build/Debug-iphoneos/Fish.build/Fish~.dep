@@ -1,0 +1,14 @@
+60e54f611448e1be6b0221823a7e1869 7ef311e2d3990364164f1d53100ffd5d ffffffffffffffffffffffffffffffff 615 /Users/dl106/Desktop/Fish/build/Fish.build/Debug-iphoneos/Fish.build/Fish.xcent
+c050a2def1c3db621e5865d5ea003019 502fcec9013206e2235d7bee91260242 ffffffffffffffffffffffffffffffff 374 /Users/dl106/Desktop/Fish/build/Debug-iphoneos/Fish.app
+00000000000000000000000000000000 4fd6531db2c021edf74b416589d1d41f ffffffffffffffffffffffffffffffff 9426 /Users/dl106/Desktop/Fish/build/Debug-iphoneos/Fish.app/embedded.mobileprovision
+000000004e51eba20000000000003ed5 aaa1f71ce6bda4e4f54000cb57f4336c ffffffffffffffffffffffffffffffff 1232 /Users/dl106/Desktop/Fish/build/Debug-iphoneos/Fish.app/FishViewController.nib
+000000004e51eba20000000000004ceb 441363b70ef1ed0e786defa80ffd248a ffffffffffffffffffffffffffffffff 1676 /Users/dl106/Desktop/Fish/build/Debug-iphoneos/Fish.app/MainWindow.nib
+00000000000000000000000000000000 60e54f611448e1be6b0221823a7e1869 ffffffffffffffffffffffffffffffff 8 /Users/dl106/Desktop/Fish/build/Debug-iphoneos/Fish.app/PkgInfo
+00000000000000000000000000000000 60e54f611448e1be6b0221823a7e1869 ffffffffffffffffffffffffffffffff 1032 /Users/dl106/Desktop/Fish/build/Debug-iphoneos/Fish.app/Info.plist
+00000000000000000000000000000000 a2c2feb451a18b505f93e710f738a8f7 ffffffffffffffffffffffffffffffff 485 /Users/dl106/Desktop/Fish/build/Debug-iphoneos/Fish.app/ResourceRules.plist
+00000000000000000000000000000000 075eefa91b44546e6aa44a5524bd293d ffffffffffffffffffffffffffffffff 102 /Users/dl106/Desktop/Fish/build/Debug-iphoneos/Fish.app.dSYM
+c05761bfa4adefb73af1ab81bf3122cc 03a1fa635e43d782015c874273d10be5 ffffffffffffffffffffffffffffffff 16860 /Users/dl106/Desktop/Fish/build/Debug-iphoneos/Fish.app/Fish
+eff6001214bfdae004c0bdcb285b78b2 caf5d621607d050295807d865f374eae ffffffffffffffffffffffffffffffff 38160 /Users/dl106/Desktop/Fish/build/Fish.build/Debug-iphoneos/Fish.build/Objects-normal/armv7/FishViewController.o
+eff6001217b419e904c0bdcb285b716d 125cae64bdd443bd00d0c02ab80cf56a ffffffffffffffffffffffffffffffff 49776 /Users/dl106/Desktop/Fish/build/Fish.build/Debug-iphoneos/Fish.build/Objects-normal/armv7/FishAppDelegate.o
+eff600125aee314304c0bdcb285b7c7e f70819e820cf7398ab61abe67090d709 ffffffffffffffffffffffffffffffff 6404 /Users/dl106/Desktop/Fish/build/Fish.build/Debug-iphoneos/Fish.build/Objects-normal/armv7/main.o
+000000004e5f12d40000000000001e76 eff6001217bae09f04c0bdcb285b69ce ffffffffffffffffffffffffffffffff 10647452 /var/folders/2X/2XWXbhY0HayA4NdwuGNXi-6scts/-Caches-/com.apple.Xcode.305701790/SharedPrecompiledHeaders/Fish_Prefix-bfehubosgwuhrwfvdookikphswqr/Fish_Prefix.pch.gch

@@ -1,0 +1,28 @@
+/Users/dl106/Fish/Fish/ThePreventerShould.m:22:1: error: unterminated argument list invoking macro "STAssertTrue"
+/Users/dl106/Fish/Fish/ThePreventerShould.m: In function '-[ThePreventerShould testPreventerClassExsists]':
+/Users/dl106/Fish/Fish/ThePreventerShould.m:19: error: 'STAssertTrue' undeclared (first use in this function)
+/Users/dl106/Fish/Fish/ThePreventerShould.m:19: error: (Each undeclared identifier is reported only once
+/Users/dl106/Fish/Fish/ThePreventerShould.m:19: error: for each function it appears in.)
+/Users/dl106/Fish/Fish/ThePreventerShould.m:19: error: expected ';' at end of input
+/Users/dl106/Fish/Fish/ThePreventerShould.m:19: error: expected declaration or statement at end of input
+/Users/dl106/Fish/Fish/ThePreventerShould.m: At top level:
+/Users/dl106/Fish/Fish/ThePreventerShould.m:19: warning: '@end' missing in implementation context
+{standard input}:133:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"
+{standard input}:133:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression
+{standard input}:118:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"
+{standard input}:118:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+{standard input}:110:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"
+{standard input}:110:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+{standard input}:107:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_0" minus "L00000000001$pb"
+{standard input}:107:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_0" can't be undefined in a subtraction expression
+{standard input}:98:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000001$pb"
+{standard input}:98:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression
+{standard input}:89:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"
+{standard input}:89:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+{standard input}:86:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_0" minus "L00000000001$pb"
+{standard input}:86:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_0" can't be undefined in a subtraction expression
+{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_0
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0
+{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_1
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2

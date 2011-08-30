@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* FishAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* FishAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* FishViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* FishViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* FishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* FishViewController.m */; };
+		B2194506140C595000CC80D4 /* NewFishShould.m in Sources */ = {isa = PBXBuildFile; fileRef = B2194505140C595000CC80D4 /* NewFishShould.m */; };
+		B2194512140C598600CC80D4 /* FishAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* FishAppDelegate.m */; };
+		B2194520140C5AE000CC80D4 /* Fish.m in Sources */ = {isa = PBXBuildFile; fileRef = B29BC191140228D900A136FA /* Fish.m */; };
+		B219454C140C5D4D00CC80D4 /* AccController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D8123D1403194F00F6CEF2 /* AccController.m */; };
+		B219455C140C5DD000CC80D4 /* NewDustMiteShould.m in Sources */ = {isa = PBXBuildFile; fileRef = B219455B140C5DD000CC80D4 /* NewDustMiteShould.m */; };
+		B2194565140C5E9200CC80D4 /* DustMite.m in Sources */ = {isa = PBXBuildFile; fileRef = B277264B1403631C004751A1 /* DustMite.m */; };
+		B219463F140C866100CC80D4 /* asthmapedia_placeholder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B219463E140C866100CC80D4 /* asthmapedia_placeholder.jpg */; };
+		B2214E6D140B516400762FD6 /* arrowGraphic.png in Resources */ = {isa = PBXBuildFile; fileRef = B2214E68140B516400762FD6 /* arrowGraphic.png */; };
+		B2214E6E140B516400762FD6 /* asthmaWaikatoButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B2214E69140B516400762FD6 /* asthmaWaikatoButton.png */; };
+		B2214E6F140B516400762FD6 /* backButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B2214E6A140B516400762FD6 /* backButton.png */; };
+		B2214E70140B516400762FD6 /* menuButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B2214E6B140B516400762FD6 /* menuButton.png */; };
+		B2214E71140B516400762FD6 /* pauseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B2214E6C140B516400762FD6 /* pauseButton.png */; };
+		B225D9771406276800DF3B3F /* NewAnimalFurShould.m in Sources */ = {isa = PBXBuildFile; fileRef = B225D9761406276800DF3B3F /* NewAnimalFurShould.m */; };
+		B225D984140628A600DF3B3F /* AnimalFur.m in Sources */ = {isa = PBXBuildFile; fileRef = B225D983140628A600DF3B3F /* AnimalFur.m */; };
+		B225D9951406299500DF3B3F /* AnimalFur.m in Sources */ = {isa = PBXBuildFile; fileRef = B225D983140628A600DF3B3F /* AnimalFur.m */; };
+		B225D9D014062E0300DF3B3F /* animal_fur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B225D9CF14062E0300DF3B3F /* animal_fur.jpg */; };
+		B2283FC7140B3CF3002EB2A8 /* Suplexmentary Comic NC.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2283FC6140B3CF3002EB2A8 /* Suplexmentary Comic NC.ttf */; };
+		B277264C1403631C004751A1 /* DustMite.m in Sources */ = {isa = PBXBuildFile; fileRef = B277264B1403631C004751A1 /* DustMite.m */; };
+		B277265214036345004751A1 /* dust_mite.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B277265014036345004751A1 /* dust_mite.jpg */; };
+		B277265314036345004751A1 /* flu_virus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B277265114036345004751A1 /* flu_virus.jpg */; };
+		B27726551403635A004751A1 /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B27726541403635A004751A1 /* GameViewController.xib */; };
+		B277265814036373004751A1 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B277265714036373004751A1 /* GameViewController.m */; };
+		B29BC13A140224F300A136FA /* AsthmapediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B29BC138140224F300A136FA /* AsthmapediaViewController.m */; };
+		B29BC13B140224F300A136FA /* AsthmapediaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B29BC139140224F300A136FA /* AsthmapediaViewController.xib */; };
+		B29BC192140228D900A136FA /* Fish.m in Sources */ = {isa = PBXBuildFile; fileRef = B29BC191140228D900A136FA /* Fish.m */; };
+		B2C8673C140B19E100E2EA14 /* OptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C8673A140B19E100E2EA14 /* OptionsViewController.m */; };
+		B2C8673D140B19E100E2EA14 /* OptionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2C8673B140B19E100E2EA14 /* OptionsViewController.xib */; };
+		B2C867CA140B2DDD00E2EA14 /* CreditsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C867C8140B2DDD00E2EA14 /* CreditsViewController.m */; };
+		B2C867CB140B2DDD00E2EA14 /* CreditsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2C867C9140B2DDD00E2EA14 /* CreditsViewController.xib */; };
+		B2C867CF140B2E1500E2EA14 /* LevelSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C867CD140B2E1500E2EA14 /* LevelSelectViewController.m */; };
+		B2C867D0140B2E1500E2EA14 /* LevelSelectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2C867CE140B2E1500E2EA14 /* LevelSelectViewController.xib */; };
+		B2C952FF140B3A63007639A4 /* asthmaWaikatoButtonPress.png in Resources */ = {isa = PBXBuildFile; fileRef = B2C952FB140B3A63007639A4 /* asthmaWaikatoButtonPress.png */; };
+		B2C95300140B3A63007639A4 /* backButtonPress.png in Resources */ = {isa = PBXBuildFile; fileRef = B2C952FC140B3A63007639A4 /* backButtonPress.png */; };
+		B2C95301140B3A63007639A4 /* menuButtonPress.png in Resources */ = {isa = PBXBuildFile; fileRef = B2C952FD140B3A63007639A4 /* menuButtonPress.png */; };
+		B2C95302140B3A63007639A4 /* pauseButtonPress.png in Resources */ = {isa = PBXBuildFile; fileRef = B2C952FE140B3A63007639A4 /* pauseButtonPress.png */; };
+		B2D812211403191900F6CEF2 /* fish.png in Resources */ = {isa = PBXBuildFile; fileRef = B2D812201403191900F6CEF2 /* fish.png */; };
+		B2D8123E1403194F00F6CEF2 /* AccController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D8123D1403194F00F6CEF2 /* AccController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B27727DB14037E7C004751A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D6058900D05DD3D006BFB54;
+			remoteInfo = Fish;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* FishAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FishAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* FishAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FishAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Fish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fish.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* FishViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FishViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* FishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FishViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* FishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FishViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Fish_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fish_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Fish-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Fish-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		B2194504140C595000CC80D4 /* NewFishShould.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewFishShould.h; sourceTree = "<group>"; };
+		B2194505140C595000CC80D4 /* NewFishShould.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewFishShould.m; sourceTree = "<group>"; };
+		B219455A140C5DD000CC80D4 /* NewDustMiteShould.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewDustMiteShould.h; sourceTree = "<group>"; };
+		B219455B140C5DD000CC80D4 /* NewDustMiteShould.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewDustMiteShould.m; sourceTree = "<group>"; };
+		B219463E140C866100CC80D4 /* asthmapedia_placeholder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = asthmapedia_placeholder.jpg; sourceTree = "<group>"; };
+		B2214E68140B516400762FD6 /* arrowGraphic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowGraphic.png; sourceTree = "<group>"; };
+		B2214E69140B516400762FD6 /* asthmaWaikatoButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asthmaWaikatoButton.png; sourceTree = "<group>"; };
+		B2214E6A140B516400762FD6 /* backButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backButton.png; sourceTree = "<group>"; };
+		B2214E6B140B516400762FD6 /* menuButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menuButton.png; sourceTree = "<group>"; };
+		B2214E6C140B516400762FD6 /* pauseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pauseButton.png; sourceTree = "<group>"; };
+		B225D9751406276800DF3B3F /* NewAnimalFurShould.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewAnimalFurShould.h; sourceTree = "<group>"; };
+		B225D9761406276800DF3B3F /* NewAnimalFurShould.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewAnimalFurShould.m; sourceTree = "<group>"; };
+		B225D982140628A600DF3B3F /* AnimalFur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalFur.h; sourceTree = "<group>"; };
+		B225D983140628A600DF3B3F /* AnimalFur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimalFur.m; sourceTree = "<group>"; };
+		B225D9CF14062E0300DF3B3F /* animal_fur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = animal_fur.jpg; sourceTree = "<group>"; };
+		B2283FC6140B3CF3002EB2A8 /* Suplexmentary Comic NC.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Suplexmentary Comic NC.ttf"; sourceTree = "<group>"; };
+		B277264A1403631C004751A1 /* DustMite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DustMite.h; sourceTree = "<group>"; };
+		B277264B1403631C004751A1 /* DustMite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DustMite.m; sourceTree = "<group>"; };
+		B277265014036345004751A1 /* dust_mite.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dust_mite.jpg; sourceTree = "<group>"; };
+		B277265114036345004751A1 /* flu_virus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flu_virus.jpg; sourceTree = "<group>"; };
+		B27726541403635A004751A1 /* GameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameViewController.xib; sourceTree = "<group>"; };
+		B277265614036373004751A1 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		B277265714036373004751A1 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		B27727D314037E76004751A1 /* UnitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B27727D414037E76004751A1 /* UnitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
+		B29BC137140224F300A136FA /* AsthmapediaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsthmapediaViewController.h; sourceTree = "<group>"; };
+		B29BC138140224F300A136FA /* AsthmapediaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsthmapediaViewController.m; sourceTree = "<group>"; };
+		B29BC139140224F300A136FA /* AsthmapediaViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AsthmapediaViewController.xib; path = Classes/AsthmapediaViewController.xib; sourceTree = "<group>"; };
+		B29BC190140228D900A136FA /* Fish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fish.h; sourceTree = "<group>"; };
+		B29BC191140228D900A136FA /* Fish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fish.m; sourceTree = "<group>"; };
+		B2C86739140B19E100E2EA14 /* OptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsViewController.h; sourceTree = "<group>"; };
+		B2C8673A140B19E100E2EA14 /* OptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsViewController.m; sourceTree = "<group>"; };
+		B2C8673B140B19E100E2EA14 /* OptionsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = OptionsViewController.xib; path = Classes/OptionsViewController.xib; sourceTree = "<group>"; };
+		B2C867C7140B2DDD00E2EA14 /* CreditsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditsViewController.h; sourceTree = "<group>"; };
+		B2C867C8140B2DDD00E2EA14 /* CreditsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditsViewController.m; sourceTree = "<group>"; };
+		B2C867C9140B2DDD00E2EA14 /* CreditsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CreditsViewController.xib; path = Classes/CreditsViewController.xib; sourceTree = "<group>"; };
+		B2C867CC140B2E1500E2EA14 /* LevelSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelSelectViewController.h; sourceTree = "<group>"; };
+		B2C867CD140B2E1500E2EA14 /* LevelSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelSelectViewController.m; sourceTree = "<group>"; };
+		B2C867CE140B2E1500E2EA14 /* LevelSelectViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LevelSelectViewController.xib; path = Classes/LevelSelectViewController.xib; sourceTree = "<group>"; };
+		B2C952FB140B3A63007639A4 /* asthmaWaikatoButtonPress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asthmaWaikatoButtonPress.png; sourceTree = "<group>"; };
+		B2C952FC140B3A63007639A4 /* backButtonPress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backButtonPress.png; sourceTree = "<group>"; };
+		B2C952FD140B3A63007639A4 /* menuButtonPress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menuButtonPress.png; sourceTree = "<group>"; };
+		B2C952FE140B3A63007639A4 /* pauseButtonPress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pauseButtonPress.png; sourceTree = "<group>"; };
+		B2D812201403191900F6CEF2 /* fish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fish.png; sourceTree = "<group>"; };
+		B2D8123C1403194500F6CEF2 /* AccController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccController.h; sourceTree = "<group>"; };
+		B2D8123D1403194F00F6CEF2 /* AccController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B27727D014037E76004751A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B29BC1BB14022A6500A136FA /* Views */,
+				B29BC1BA14022A5300A136FA /* Objects */,
+				1D3623240D0F684500981E51 /* FishAppDelegate.h */,
+				1D3623250D0F684500981E51 /* FishAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Fish.app */,
+				B27727D314037E76004751A1 /* UnitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				B27727D414037E76004751A1 /* UnitTests-Info.plist */,
+				B225D9751406276800DF3B3F /* NewAnimalFurShould.h */,
+				B225D9761406276800DF3B3F /* NewAnimalFurShould.m */,
+				B2194504140C595000CC80D4 /* NewFishShould.h */,
+				B2194505140C595000CC80D4 /* NewFishShould.m */,
+				B219455A140C5DD000CC80D4 /* NewDustMiteShould.h */,
+				B219455B140C5DD000CC80D4 /* NewDustMiteShould.m */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Fish_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B2283FC6140B3CF3002EB2A8 /* Suplexmentary Comic NC.ttf */,
+				B277266014036415004751A1 /* Images */,
+				B277265E140363FC004751A1 /* XIBs */,
+				8D1107310486CEB800E47090 /* Fish-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2194640140C866900CC80D4 /* Asthmapedia Items */ = {
+			isa = PBXGroup;
+			children = (
+				B219463E140C866100CC80D4 /* asthmapedia_placeholder.jpg */,
+			);
+			name = "Asthmapedia Items";
+			sourceTree = "<group>";
+		};
+		B2283FE5140B40EB002EB2A8 /* Characters */ = {
+			isa = PBXGroup;
+			children = (
+				B225D9CF14062E0300DF3B3F /* animal_fur.jpg */,
+				B277265014036345004751A1 /* dust_mite.jpg */,
+				B277265114036345004751A1 /* flu_virus.jpg */,
+				B2D812201403191900F6CEF2 /* fish.png */,
+			);
+			name = Characters;
+			sourceTree = "<group>";
+		};
+		B2283FE6140B40F9002EB2A8 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				B2214E68140B516400762FD6 /* arrowGraphic.png */,
+				B2214E69140B516400762FD6 /* asthmaWaikatoButton.png */,
+				B2214E6A140B516400762FD6 /* backButton.png */,
+				B2214E6B140B516400762FD6 /* menuButton.png */,
+				B2214E6C140B516400762FD6 /* pauseButton.png */,
+				B2C952FB140B3A63007639A4 /* asthmaWaikatoButtonPress.png */,
+				B2C952FC140B3A63007639A4 /* backButtonPress.png */,
+				B2C952FD140B3A63007639A4 /* menuButtonPress.png */,
+				B2C952FE140B3A63007639A4 /* pauseButtonPress.png */,
+			);
+			name = Buttons;
+			sourceTree = "<group>";
+		};
+		B277265E140363FC004751A1 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				2899E5210DE3E06400AC0155 /* FishViewController.xib */,
+				B2C867CE140B2E1500E2EA14 /* LevelSelectViewController.xib */,
+				B27726541403635A004751A1 /* GameViewController.xib */,
+				B29BC139140224F300A136FA /* AsthmapediaViewController.xib */,
+				B2C8673B140B19E100E2EA14 /* OptionsViewController.xib */,
+				B2C867C9140B2DDD00E2EA14 /* CreditsViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+			);
+			name = XIBs;
+			sourceTree = "<group>";
+		};
+		B277266014036415004751A1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B2194640140C866900CC80D4 /* Asthmapedia Items */,
+				B2283FE6140B40F9002EB2A8 /* Buttons */,
+				B2283FE5140B40EB002EB2A8 /* Characters */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		B29BC1BA14022A5300A136FA /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				B277264A1403631C004751A1 /* DustMite.h */,
+				B277264B1403631C004751A1 /* DustMite.m */,
+				B2D8123C1403194500F6CEF2 /* AccController.h */,
+				B2D8123D1403194F00F6CEF2 /* AccController.m */,
+				B29BC190140228D900A136FA /* Fish.h */,
+				B29BC191140228D900A136FA /* Fish.m */,
+				B225D982140628A600DF3B3F /* AnimalFur.h */,
+				B225D983140628A600DF3B3F /* AnimalFur.m */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		B29BC1BB14022A6500A136FA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				28D7ACF60DDB3853001CB0EB /* FishViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* FishViewController.m */,
+				B2C867CC140B2E1500E2EA14 /* LevelSelectViewController.h */,
+				B2C867CD140B2E1500E2EA14 /* LevelSelectViewController.m */,
+				B277265614036373004751A1 /* GameViewController.h */,
+				B277265714036373004751A1 /* GameViewController.m */,
+				B29BC137140224F300A136FA /* AsthmapediaViewController.h */,
+				B29BC138140224F300A136FA /* AsthmapediaViewController.m */,
+				B2C86739140B19E100E2EA14 /* OptionsViewController.h */,
+				B2C8673A140B19E100E2EA14 /* OptionsViewController.m */,
+				B2C867C7140B2DDD00E2EA14 /* CreditsViewController.h */,
+				B2C867C8140B2DDD00E2EA14 /* CreditsViewController.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Fish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Fish" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fish;
+			productName = Fish;
+			productReference = 1D6058910D05DD3D006BFB54 /* Fish.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B27727D214037E76004751A1 /* UnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B27727DA14037E77004751A1 /* Build configuration list for PBXNativeTarget "UnitTests" */;
+			buildPhases = (
+				B27727CE14037E76004751A1 /* Resources */,
+				B27727CF14037E76004751A1 /* Sources */,
+				B27727D014037E76004751A1 /* Frameworks */,
+				B27727D114037E76004751A1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B27727DC14037E7C004751A1 /* PBXTargetDependency */,
+			);
+			name = UnitTests;
+			productName = UnitTests;
+			productReference = B27727D314037E76004751A1 /* UnitTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Fish" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Fish */,
+				B27727D214037E76004751A1 /* UnitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* FishViewController.xib in Resources */,
+				B29BC13B140224F300A136FA /* AsthmapediaViewController.xib in Resources */,
+				B2D812211403191900F6CEF2 /* fish.png in Resources */,
+				B277265214036345004751A1 /* dust_mite.jpg in Resources */,
+				B277265314036345004751A1 /* flu_virus.jpg in Resources */,
+				B27726551403635A004751A1 /* GameViewController.xib in Resources */,
+				B225D9D014062E0300DF3B3F /* animal_fur.jpg in Resources */,
+				B2C8673D140B19E100E2EA14 /* OptionsViewController.xib in Resources */,
+				B2C867CB140B2DDD00E2EA14 /* CreditsViewController.xib in Resources */,
+				B2C867D0140B2E1500E2EA14 /* LevelSelectViewController.xib in Resources */,
+				B2C952FF140B3A63007639A4 /* asthmaWaikatoButtonPress.png in Resources */,
+				B2C95300140B3A63007639A4 /* backButtonPress.png in Resources */,
+				B2C95301140B3A63007639A4 /* menuButtonPress.png in Resources */,
+				B2C95302140B3A63007639A4 /* pauseButtonPress.png in Resources */,
+				B2283FC7140B3CF3002EB2A8 /* Suplexmentary Comic NC.ttf in Resources */,
+				B2214E6D140B516400762FD6 /* arrowGraphic.png in Resources */,
+				B2214E6E140B516400762FD6 /* asthmaWaikatoButton.png in Resources */,
+				B2214E6F140B516400762FD6 /* backButton.png in Resources */,
+				B2214E70140B516400762FD6 /* menuButton.png in Resources */,
+				B2214E71140B516400762FD6 /* pauseButton.png in Resources */,
+				B219463F140C866100CC80D4 /* asthmapedia_placeholder.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B27727CE14037E76004751A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B27727D114037E76004751A1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* FishAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* FishViewController.m in Sources */,
+				B29BC13A140224F300A136FA /* AsthmapediaViewController.m in Sources */,
+				B29BC192140228D900A136FA /* Fish.m in Sources */,
+				B2D8123E1403194F00F6CEF2 /* AccController.m in Sources */,
+				B277264C1403631C004751A1 /* DustMite.m in Sources */,
+				B277265814036373004751A1 /* GameViewController.m in Sources */,
+				B225D984140628A600DF3B3F /* AnimalFur.m in Sources */,
+				B2C8673C140B19E100E2EA14 /* OptionsViewController.m in Sources */,
+				B2C867CA140B2DDD00E2EA14 /* CreditsViewController.m in Sources */,
+				B2C867CF140B2E1500E2EA14 /* LevelSelectViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B27727CF14037E76004751A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B225D9771406276800DF3B3F /* NewAnimalFurShould.m in Sources */,
+				B225D9951406299500DF3B3F /* AnimalFur.m in Sources */,
+				B2194506140C595000CC80D4 /* NewFishShould.m in Sources */,
+				B2194512140C598600CC80D4 /* FishAppDelegate.m in Sources */,
+				B2194520140C5AE000CC80D4 /* Fish.m in Sources */,
+				B219454C140C5D4D00CC80D4 /* AccController.m in Sources */,
+				B219455C140C5DD000CC80D4 /* NewDustMiteShould.m in Sources */,
+				B2194565140C5E9200CC80D4 /* DustMite.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B27727DC14037E7C004751A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D6058900D05DD3D006BFB54 /* Fish */;
+			targetProxy = B27727DB14037E7C004751A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Fish_Prefix.pch;
+				INFOPLIST_FILE = "Fish-Info.plist";
+				PRODUCT_NAME = Fish;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Fish_Prefix.pch;
+				INFOPLIST_FILE = "Fish-Info.plist";
+				PRODUCT_NAME = Fish;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B27727D814037E77004751A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = "UnitTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = UnitTests;
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B27727D914037E77004751A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				INFOPLIST_FILE = "UnitTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = UnitTests;
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = octest;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Fish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B27727DA14037E77004751A1 /* Build configuration list for PBXNativeTarget "UnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B27727D814037E77004751A1 /* Debug */,
+				B27727D914037E77004751A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Fish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
