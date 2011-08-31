@@ -15,6 +15,9 @@
 		2899E5220DE3E06400AC0155 /* FishViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* FishViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* FishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* FishViewController.m */; };
+		B20718C3140DCE2E00A9574C /* logos.png in Resources */ = {isa = PBXBuildFile; fileRef = B20718C2140DCE2E00A9574C /* logos.png */; };
+		B20718C8140DCFCE00A9574C /* asthmaWaikatoLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = B20718C7140DCFCE00A9574C /* asthmaWaikatoLogo.png */; };
+		B20718DA140DD22800A9574C /* ScrollingController.m in Sources */ = {isa = PBXBuildFile; fileRef = B20718D9140DD22800A9574C /* ScrollingController.m */; };
 		B2194506140C595000CC80D4 /* NewFishShould.m in Sources */ = {isa = PBXBuildFile; fileRef = B2194505140C595000CC80D4 /* NewFishShould.m */; };
 		B2194512140C598600CC80D4 /* FishAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* FishAppDelegate.m */; };
 		B2194520140C5AE000CC80D4 /* Fish.m in Sources */ = {isa = PBXBuildFile; fileRef = B29BC191140228D900A136FA /* Fish.m */; };
@@ -40,6 +43,12 @@
 		B29BC13A140224F300A136FA /* AsthmapediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B29BC138140224F300A136FA /* AsthmapediaViewController.m */; };
 		B29BC13B140224F300A136FA /* AsthmapediaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B29BC139140224F300A136FA /* AsthmapediaViewController.xib */; };
 		B29BC192140228D900A136FA /* Fish.m in Sources */ = {isa = PBXBuildFile; fileRef = B29BC191140228D900A136FA /* Fish.m */; };
+		B2B5376D140DA6AE001317FC /* asthmapediaAnimalFur.png in Resources */ = {isa = PBXBuildFile; fileRef = B2B53767140DA6AE001317FC /* asthmapediaAnimalFur.png */; };
+		B2B5376E140DA6AF001317FC /* asthmapediaCold.png in Resources */ = {isa = PBXBuildFile; fileRef = B2B53768140DA6AE001317FC /* asthmapediaCold.png */; };
+		B2B5376F140DA6AF001317FC /* asthmapediaDustMite.png in Resources */ = {isa = PBXBuildFile; fileRef = B2B53769140DA6AE001317FC /* asthmapediaDustMite.png */; };
+		B2B53770140DA6AF001317FC /* asthmapediaFluVirus.png in Resources */ = {isa = PBXBuildFile; fileRef = B2B5376A140DA6AE001317FC /* asthmapediaFluVirus.png */; };
+		B2B53771140DA6AF001317FC /* asthmapediaPollen.png in Resources */ = {isa = PBXBuildFile; fileRef = B2B5376B140DA6AE001317FC /* asthmapediaPollen.png */; };
+		B2B53772140DA6AF001317FC /* asthmapediaSmoke.png in Resources */ = {isa = PBXBuildFile; fileRef = B2B5376C140DA6AE001317FC /* asthmapediaSmoke.png */; };
 		B2C8673C140B19E100E2EA14 /* OptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C8673A140B19E100E2EA14 /* OptionsViewController.m */; };
 		B2C8673D140B19E100E2EA14 /* OptionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2C8673B140B19E100E2EA14 /* OptionsViewController.xib */; };
 		B2C867CA140B2DDD00E2EA14 /* CreditsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C867C8140B2DDD00E2EA14 /* CreditsViewController.m */; };
@@ -78,6 +87,10 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Fish_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fish_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Fish-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Fish-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		B20718C2140DCE2E00A9574C /* logos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logos.png; sourceTree = "<group>"; };
+		B20718C7140DCFCE00A9574C /* asthmaWaikatoLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asthmaWaikatoLogo.png; sourceTree = "<group>"; };
+		B20718D8140DD22800A9574C /* ScrollingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollingController.h; sourceTree = "<group>"; };
+		B20718D9140DD22800A9574C /* ScrollingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollingController.m; sourceTree = "<group>"; };
 		B2194504140C595000CC80D4 /* NewFishShould.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewFishShould.h; sourceTree = "<group>"; };
 		B2194505140C595000CC80D4 /* NewFishShould.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewFishShould.m; sourceTree = "<group>"; };
 		B219455A140C5DD000CC80D4 /* NewDustMiteShould.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewDustMiteShould.h; sourceTree = "<group>"; };
@@ -108,6 +121,12 @@
 		B29BC139140224F300A136FA /* AsthmapediaViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AsthmapediaViewController.xib; path = Classes/AsthmapediaViewController.xib; sourceTree = "<group>"; };
 		B29BC190140228D900A136FA /* Fish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fish.h; sourceTree = "<group>"; };
 		B29BC191140228D900A136FA /* Fish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fish.m; sourceTree = "<group>"; };
+		B2B53767140DA6AE001317FC /* asthmapediaAnimalFur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asthmapediaAnimalFur.png; sourceTree = "<group>"; };
+		B2B53768140DA6AE001317FC /* asthmapediaCold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asthmapediaCold.png; sourceTree = "<group>"; };
+		B2B53769140DA6AE001317FC /* asthmapediaDustMite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asthmapediaDustMite.png; sourceTree = "<group>"; };
+		B2B5376A140DA6AE001317FC /* asthmapediaFluVirus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asthmapediaFluVirus.png; sourceTree = "<group>"; };
+		B2B5376B140DA6AE001317FC /* asthmapediaPollen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asthmapediaPollen.png; sourceTree = "<group>"; };
+		B2B5376C140DA6AE001317FC /* asthmapediaSmoke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asthmapediaSmoke.png; sourceTree = "<group>"; };
 		B2C86739140B19E100E2EA14 /* OptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsViewController.h; sourceTree = "<group>"; };
 		B2C8673A140B19E100E2EA14 /* OptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsViewController.m; sourceTree = "<group>"; };
 		B2C8673B140B19E100E2EA14 /* OptionsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = OptionsViewController.xib; path = Classes/OptionsViewController.xib; sourceTree = "<group>"; };
@@ -150,8 +169,9 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				B20718D7140DD1F400A9574C /* Objects */,
 				B29BC1BB14022A6500A136FA /* Views */,
-				B29BC1BA14022A5300A136FA /* Objects */,
+				B29BC1BA14022A5300A136FA /* Characters */,
 				1D3623240D0F684500981E51 /* FishAppDelegate.h */,
 				1D3623250D0F684500981E51 /* FishAppDelegate.m */,
 			);
@@ -216,9 +236,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B20718D7140DD1F400A9574C /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				B2D8123C1403194500F6CEF2 /* AccController.h */,
+				B2D8123D1403194F00F6CEF2 /* AccController.m */,
+				B20718D8140DD22800A9574C /* ScrollingController.h */,
+				B20718D9140DD22800A9574C /* ScrollingController.m */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
 		B2194640140C866900CC80D4 /* Asthmapedia Items */ = {
 			isa = PBXGroup;
 			children = (
+				B2B53767140DA6AE001317FC /* asthmapediaAnimalFur.png */,
+				B2B53768140DA6AE001317FC /* asthmapediaCold.png */,
+				B2B53769140DA6AE001317FC /* asthmapediaDustMite.png */,
+				B2B5376A140DA6AE001317FC /* asthmapediaFluVirus.png */,
+				B2B5376B140DA6AE001317FC /* asthmapediaPollen.png */,
+				B2B5376C140DA6AE001317FC /* asthmapediaSmoke.png */,
 				B219463E140C866100CC80D4 /* asthmapedia_placeholder.jpg */,
 			);
 			name = "Asthmapedia Items";
@@ -268,6 +305,8 @@
 		B277266014036415004751A1 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				B20718C7140DCFCE00A9574C /* asthmaWaikatoLogo.png */,
+				B20718C2140DCE2E00A9574C /* logos.png */,
 				B2194640140C866900CC80D4 /* Asthmapedia Items */,
 				B2283FE6140B40F9002EB2A8 /* Buttons */,
 				B2283FE5140B40EB002EB2A8 /* Characters */,
@@ -275,19 +314,17 @@
 			name = Images;
 			sourceTree = "<group>";
 		};
-		B29BC1BA14022A5300A136FA /* Objects */ = {
+		B29BC1BA14022A5300A136FA /* Characters */ = {
 			isa = PBXGroup;
 			children = (
 				B277264A1403631C004751A1 /* DustMite.h */,
 				B277264B1403631C004751A1 /* DustMite.m */,
-				B2D8123C1403194500F6CEF2 /* AccController.h */,
-				B2D8123D1403194F00F6CEF2 /* AccController.m */,
 				B29BC190140228D900A136FA /* Fish.h */,
 				B29BC191140228D900A136FA /* Fish.m */,
 				B225D982140628A600DF3B3F /* AnimalFur.h */,
 				B225D983140628A600DF3B3F /* AnimalFur.m */,
 			);
-			name = Objects;
+			name = Characters;
 			sourceTree = "<group>";
 		};
 		B29BC1BB14022A6500A136FA /* Views */ = {
@@ -400,6 +437,14 @@
 				B2214E70140B516400762FD6 /* menuButton.png in Resources */,
 				B2214E71140B516400762FD6 /* pauseButton.png in Resources */,
 				B219463F140C866100CC80D4 /* asthmapedia_placeholder.jpg in Resources */,
+				B2B5376D140DA6AE001317FC /* asthmapediaAnimalFur.png in Resources */,
+				B2B5376E140DA6AF001317FC /* asthmapediaCold.png in Resources */,
+				B2B5376F140DA6AF001317FC /* asthmapediaDustMite.png in Resources */,
+				B2B53770140DA6AF001317FC /* asthmapediaFluVirus.png in Resources */,
+				B2B53771140DA6AF001317FC /* asthmapediaPollen.png in Resources */,
+				B2B53772140DA6AF001317FC /* asthmapediaSmoke.png in Resources */,
+				B20718C3140DCE2E00A9574C /* logos.png in Resources */,
+				B20718C8140DCFCE00A9574C /* asthmaWaikatoLogo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +490,7 @@
 				B2C8673C140B19E100E2EA14 /* OptionsViewController.m in Sources */,
 				B2C867CA140B2DDD00E2EA14 /* CreditsViewController.m in Sources */,
 				B2C867CF140B2E1500E2EA14 /* LevelSelectViewController.m in Sources */,
+				B20718DA140DD22800A9574C /* ScrollingController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

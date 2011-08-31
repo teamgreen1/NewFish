@@ -10,9 +10,14 @@
 
 
 @interface CreditsViewController : UIViewController {
-
+		IBOutlet UIScrollView *scrollView;
 }
 
+@property (nonatomic, retain)IBOutlet UIScrollView *scrollView;
+
 -(IBAction)back;
+
+-(void)addImageAsSubView:(NSString *)image :(int )location :(UIScrollView *)scroller;
+
 
 @end

@@ -16,6 +16,6 @@
 @property (nonatomic, retain)IBOutlet UIScrollView *scrollView;
 
 -(IBAction)back;
-
+-(void)addImageAsSubView:(NSString *)image :(int )location :(UIScrollView *)scroller;
 
 @end

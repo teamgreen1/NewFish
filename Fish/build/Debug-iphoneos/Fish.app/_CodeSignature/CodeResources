@@ -6,11 +6,11 @@
 	<dict>
 		<key>AsthmapediaViewController.nib</key>
 		<data>
-		qMAbdGCIUrabGP04t0tz41EE2Kw=
+		4E3/kiPIUVMtW0pCCbGa9a1YeQ4=
 		</data>
 		<key>CreditsViewController.nib</key>
 		<data>
-		BP/Gzji9kqRNKSkmIQO/2KUYVIo=
+		o9Bun6K48M05yKsxiIPBCG6ApkA=
 		</data>
 		<key>FishViewController.nib</key>
 		<data>
@@ -55,6 +55,34 @@
 		<key>asthmaWaikatoButtonPress.png</key>
 		<data>
 		R2GWqpI1EjCHmAcyZ/WE2cecARU=
+		</data>
+		<key>asthmaWaikatoLogo.png</key>
+		<data>
+		GS780B/efUhil0jW80/J3FE8KJM=
+		</data>
+		<key>asthmapediaAnimalFur.png</key>
+		<data>
+		FFZtBCAljn+NbN7P8lSq7PMRl/s=
+		</data>
+		<key>asthmapediaCold.png</key>
+		<data>
+		x/APT9mCbTUF9jwSSa30WBPbGBU=
+		</data>
+		<key>asthmapediaDustMite.png</key>
+		<data>
+		7GnPBzK31AlTyIA7LUPV5lvmLeQ=
+		</data>
+		<key>asthmapediaFluVirus.png</key>
+		<data>
+		TxxLvUBc5P3RlCHz07abB5LImBc=
+		</data>
+		<key>asthmapediaPollen.png</key>
+		<data>
+		h+DPkDEGO5hUu8UHHkGJha3BHSc=
+		</data>
+		<key>asthmapediaSmoke.png</key>
+		<data>
+		cM1nQgdOL0izKmmOOzJJ2wKsz7E=
 		</data>
 		<key>asthmapedia_placeholder.jpg</key>
 		<data>
@@ -103,6 +131,10 @@
 		<key>flu_virus.jpg</key>
 		<data>
 		vS90Nzrl1GEY2+AQ23Yqyd48MQk=
+		</data>
+		<key>logos.png</key>
+		<data>
+		7kGcz8Uk22s4HKt4jsc5pSD2KYc=
 		</data>
 		<key>menuButton.png</key>
 		<data>
