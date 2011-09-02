@@ -88,6 +88,7 @@ ScrollingController *sControl;
 	imageView.center = point;//set the center of the image to be equal to the center of the screen
 	
 	[scroller addSubview:imageView];//add the image to the screen
+	[imageView release];
 }
 
 

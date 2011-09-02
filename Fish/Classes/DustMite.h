@@ -13,6 +13,8 @@
 	float XSpeed;
 	float YSpeed;
 	NSTimer *timer;
+	float xdir;
+	float ydir;
 }
 
 @property float XSpeed;

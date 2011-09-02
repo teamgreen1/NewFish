@@ -20,17 +20,17 @@
 
 float screen_width = 768;
 float screen_height = 1002;
-float mite_radius = 50;
+float mite_radius = 25;
 
-float xdir = 5;
-float ydir = 5;
+
 
 - (id)init {
-    self = [super initWithImage:[UIImage imageNamed:@"dust_mite.jpg"]];
+    self = [super initWithImage:[UIImage imageNamed:@"dustMite.png"]];
     if(self){
 		
-        [self setFrame:CGRectMake(0, 0, mite_radius*2.5, mite_radius*2)];
-        
+        [self setFrame:CGRectMake(0, 0, mite_radius*3, mite_radius*2)];
+        xdir = 5;
+		ydir = 5;
 		[self toggleTimer];
     }
     return self;
@@ -48,19 +48,14 @@ float ydir = 5;
 	if(YPos > screen_height || YPos < 0){
 		ydir = ydir *-1;
 	}
+
 	
 	[self setCenter:CGPointMake(XPos, YPos)];
 }
 
 -(void)hit
 {
-	xdir = xdir *-1;
-	ydir = ydir *-1;
-	int randomX = rand() % 700;
-	int randomY = rand() % 900;
-	XPos = randomX + xdir;
-	YPos = randomY + ydir;
-	[self setCenter:CGPointMake(XPos, YPos)];
+	self.hidden = TRUE;
 }
 
 

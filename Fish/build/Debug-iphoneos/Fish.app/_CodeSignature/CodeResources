@@ -14,7 +14,7 @@
 		</data>
 		<key>FishViewController.nib</key>
 		<data>
-		VwTQrVGi1/QfabglgQ8PxoKrXbg=
+		krH5xQfcm2buRlrOk6YEYiikSr8=
 		</data>
 		<key>GameViewController.nib</key>
 		<data>
@@ -39,6 +39,10 @@
 		<key>Suplexmentary Comic NC.ttf</key>
 		<data>
 		b0F86Sd6+tsB0PYYNr1u6KyVIqY=
+		</data>
+		<key>animalFur.png</key>
+		<data>
+		CzOjtlgl/Eogh2amTVFwQuS00Vc=
 		</data>
 		<key>animal_fur.jpg</key>
 		<data>
@@ -116,6 +120,10 @@
 		<data>
 		LQau1WR3aj8JquHqYo4bj6GXZhM=
 		</data>
+		<key>dustMite.png</key>
+		<data>
+		FDu5jAUJRrXvMVABYa5Xur23NBk=
+		</data>
 		<key>dust_mite.jpg</key>
 		<data>
 		hMd+2NALBP+CnpApLTawX9jJXao=
@@ -127,6 +135,10 @@
 		<key>fish.png</key>
 		<data>
 		amXQQgIJ13w7BZxDNX68/6gOHGU=
+		</data>
+		<key>fluVirus.png</key>
+		<data>
+		zpp2GWcg9TUO6cgMgaMvPgR9+jM=
 		</data>
 		<key>flu_virus.jpg</key>
 		<data>
@@ -151,6 +163,14 @@
 		<key>pauseButtonPress.png</key>
 		<data>
 		GlmwPGDKusm7VXn8r8FTWiCPDWI=
+		</data>
+		<key>pollen.png</key>
+		<data>
+		kMZ95xlP3qOBAUKhXdi7NKC2ogQ=
+		</data>
+		<key>smoke.png</key>
+		<data>
+		ESu2BPYOppwBRb9BJ5zo8LhaRY4=
 		</data>
 	</dict>
 	<key>rules</key>

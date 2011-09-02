@@ -21,7 +21,7 @@
 @synthesize pauseButton;
 
 Fish *theFish;
-DustMite *theMite;
+NSMutableArray *mitesArray;
 float score = 0;
 
 
@@ -42,7 +42,14 @@ float score = 0;
 {
 	//stop the current characters from moving
 	[theFish toggleTimer];
-	[theMite toggleTimer];
+	int i = ([mitesArray count]-1);
+	for (i; i >= 0; i--) {
+		
+		DustMite *collisionMite;
+		collisionMite = [mitesArray objectAtIndex:i];
+			
+		[collisionMite toggleTimer];
+	}
 	
 	//show the menu buttons
 	continueButton.hidden = FALSE;
@@ -59,7 +66,15 @@ float score = 0;
 {
 	//get the characters to resume play
 	[theFish toggleTimer];
-	[theMite toggleTimer];
+	
+	int i = ([mitesArray count]-1);
+	for (i; i >= 0; i--) {
+		
+		DustMite *collisionMite;
+		collisionMite = [mitesArray objectAtIndex:i];
+		
+		[collisionMite toggleTimer];
+	}
 	
 	//hide the menu buttons
 	continueButton.hidden = TRUE;
@@ -78,37 +93,67 @@ float score = 0;
 		//instantiate the fish
 		theFish = [[Fish alloc] init];
 		[self.view addSubview:theFish];
-		[theFish setCenter:self.view.center];
+		int random = rand() % 10;
+		mitesArray = [[NSMutableArray alloc]initWithCapacity:10];
 		
 		//instantiate the mite
-		theMite = [[DustMite alloc] init];
-		[self.view addSubview:theMite];		
-		CGPoint p = CGPointMake(100,100);
-		[theMite setCenter:p];
+		for (int i = 0; i < 10; i++) {
+			DustMite *theMite = [[DustMite alloc] init];
+			[self.view addSubview:theMite];
+			CGPoint p = CGPointMake(( random + random), (10 * (i * random)) );
+			[theMite setCenter:p];
+			
+			[mitesArray insertObject:theMite atIndex:i];
+		}
+	
 		
 		//make a timer to check for collisions
 		[NSTimer scheduledTimerWithTimeInterval:1/30.0 target:self selector:@selector(checkCollision) userInfo:nil repeats:true];
+		
+		
+
+		
     }
     return self;
 }
 
 -(void)checkCollision
 {
-	if(theFish.YPos > (theMite.YPos-70) && theFish.YPos < (theMite.YPos +70)){
-		if(theFish.XPos > (theMite.XPos-70) && theFish.XPos < (theMite.XPos +70))
+	int i = ([mitesArray count]-1);
+	for (i; i >= 0; i--) {
+		
+		DustMite *collisionMite;
+		collisionMite = [mitesArray objectAtIndex:i];
+	
+	if(theFish.YPos > (collisionMite.YPos-70) && theFish.YPos < (collisionMite.YPos +70)){
+		if(theFish.XPos > (collisionMite.XPos-70) && theFish.XPos < (collisionMite.XPos +70))
 		{
-			printf("HIT!\n");
+			//printf("HIT! numMites = %d\n", [mitesArray count]);
+			
 			
 			[theFish hit];
-			[theMite hit];
+			[collisionMite removeFromSuperview];
+			[mitesArray removeObjectAtIndex:i];
+			[collisionMite release];
 			
 			//calculate the score and update the score label	
 			score = score + 10;		
 			NSString *theScore = [NSString stringWithFormat:@"Score: %f",score];			  
 			[scoreLabel setText:theScore];
 			[scoreLabel setFont:[UIFont fontWithName:@"Suplexmentary Comic NC" size:36]];
+			printf("HIT! numMites = %d\n", [mitesArray count]);
+			if ([mitesArray count]  < 1) {
+				printf("happend/n");
+				UIAlertView *alertWithOkButto = alertWithOkButto = [[UIAlertView alloc] initWithTitle:@"WIN"
+																								message:@"YOU HAVE WON! \n YOU'RE THE KING" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+				
+				[alertWithOkButto show];
+				[alertWithOkButto release];
+			}
 		}
 	}
+	}
+	
 }
 
 

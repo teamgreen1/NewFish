@@ -5,11 +5,9 @@
 AccController *acc;
 
 float width = 768;
-float height = 1002;
+float height = 1024;
 float ball_radius = 50;
-float friction = .9;
-float maxSpeed = 10;
-float minSpeed = -10;
+float friction = .6;
 
 
 
@@ -29,6 +27,8 @@ float minSpeed = -10;
         {
             acc = [[AccController alloc] init];
         }
+		XPos = width/2;
+		YPos = height/2;
         [self setFrame:CGRectMake(0, 0, ball_radius*2, ball_radius*2)];
         
         [self toggleTimer];
@@ -38,75 +38,61 @@ float minSpeed = -10;
 
 -(void) updateFish
 {
+	
+	XSpeed += acc.gx;
+ 	YSpeed += acc.gy;
+	
+
+	float newX = XPos + XSpeed;
+	float newY = YPos + YSpeed;
+	
 	/*
 	 *Check the fish is with in horizonal bounds of the screen
 	 */
 	
-	if(XPos > width ){//if the fish is beyond the width
+	if(newX > (width - ball_radius)){//if the fish is beyond the width
 		
-		//set its speed in the oposite direction
-		[self setXSpeed:(self.XSpeed - (1.8*self.XSpeed))];		
-		XPos = (self.center.x -5) + self.XSpeed;//move the position 5 pixels of the wall ( to stop jumping out of the bounds)
+		XPos = width - ball_radius;
+		XSpeed = -XSpeed;
+		XSpeed *= friction;
+		XSpeed += acc.gx;
 		
-	}		
-	else if(XPos < 0){//if the fish is beneth the width
-		
-		//set its speed in the opposite direction
-		[self setXSpeed:(self.XSpeed - (1.8*self.XSpeed))];		
-		XPos = (self.center.x +5) + self.XSpeed;//move the position 5 pixels off the wall (to stop jumpng out of bounds)		
-		
+	}			
+	if (newX < ball_radius) {
+		XPos = ball_radius;
+		XSpeed = - XSpeed;
+		XSpeed *= friction;
+		XSpeed += acc.gx;
 	}
-	else {//its with in the width update its speed
+		XPos = XPos + XSpeed;		
 	
-		
-		XPos = self.center.x + self.XSpeed;
-		
-		
-		
-	}
-
 	
 	
 	/*
 	 *Check the fish is with in the vertical bounds of the screen
 	 */
 	
-	if(YPos > height ){//if the fish is off the bottom of the screen
-		
-		//set its speed in the oposite direction
-		[self setYSpeed:(self.YSpeed - (1.8*self.YSpeed))];		
-		YPos = (self.center.y -5) + self.YSpeed;//move the position 5 pixels of the wall ( to stop jumping out of the bounds)
-		
-	}
-	else if(YPos < 0){//if the fish is off the top of the screen
-		
-		//set its speed in the oposite direction
-		[self setYSpeed:(self.YSpeed - (1.8*self.YSpeed))];		
-		YPos = (self.center.y +5) + self.YSpeed;//move the position 5 pixels of the wall ( to stop jumping out of the bounds)
+	if(newY > (height - ball_radius)){//if the fish is off the bottom of the screen
+		YPos = height - ball_radius;
+		YSpeed = -YSpeed;
+		YSpeed *= friction;
+		YSpeed += acc.gy;
 		
 	}
-	else {//its within the height, update its speed
-		
-		
-		YPos = self.center.y + self.YSpeed;
-		
-	}	
-	
-		
-	/*
-	 *Checks that the speeds aren't getting ridiculus
-	 */
-	if (self.XSpeed < maxSpeed && self.XSpeed > minSpeed) {		
-		[self setXSpeed:self.XSpeed + acc.gx]; 	
+	if(newY < ball_radius){
+		YPos = ball_radius;
+		YSpeed = -YSpeed;
+		YSpeed *= friction;
+		YSpeed += acc.gy;
 	}
-	if (self.YSpeed < maxSpeed && self.YSpeed > minSpeed) {
-		[self setYSpeed:self.YSpeed  + acc.gy];	
-	}
-	
-	
+			
+		YPos = YPos + YSpeed;
 	
 	//The The Fish on the Ipad
 	[self setCenter:CGPointMake(XPos, YPos)];
+	
+	XSpeed *= .99;
+	YSpeed *= .99;
 }
 
 
@@ -115,12 +101,16 @@ float minSpeed = -10;
 
 -(void) hit
 {
-	[self setYSpeed:(self.YSpeed - (2*self.YSpeed))];
-	[self setXSpeed:(self.XSpeed - (2*self.XSpeed))];
+	YSpeed = -YSpeed;
+	YSpeed *= friction;
 	
-	XPos = self.center.x + self.XSpeed;
-	YPos = self.center.y + self.YSpeed;
-		[self setCenter:CGPointMake(XPos, YPos)];
+	XSpeed = -XSpeed;
+	XSpeed *= friction;
+	
+	XPos += XSpeed;
+	YPos += YSpeed;
+	
+	[self setCenter:CGPointMake(XPos, YPos)];
 }
 
 
