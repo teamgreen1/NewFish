@@ -7,6 +7,7 @@
 //
 
 #import "DustMite.h"
+#import <stdlib.h>
 
 
 @implementation DustMite
@@ -15,6 +16,7 @@
 
 @synthesize XPos;
 @synthesize YPos;
+@synthesize randomNum;
 
 @synthesize timer;
 
@@ -24,13 +26,21 @@ float mite_radius = 25;
 
 
 
-- (id)init {
+- (id)init :(int)randomX : (int)randomY {
     self = [super initWithImage:[UIImage imageNamed:@"dustMite.png"]];
     if(self){
 		
         [self setFrame:CGRectMake(0, 0, mite_radius*3, mite_radius*2)];
-        xdir = 5;
-		ydir = 5;
+		
+		
+		/*
+		 * Deals with creating different moving mites
+		 *
+		 */
+
+			xdir = randomX;
+			ydir = randomY;
+
 		[self toggleTimer];
     }
     return self;
@@ -43,10 +53,10 @@ float mite_radius = 25;
 	
 	
 	if(XPos > screen_width || XPos <0){
-		xdir = xdir *-1;
+		xdir = -xdir;
 	}
 	if(YPos > screen_height || YPos < 0){
-		ydir = ydir *-1;
+		ydir = -ydir;
 	}
 
 	

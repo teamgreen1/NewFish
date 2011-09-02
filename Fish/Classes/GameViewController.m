@@ -10,6 +10,7 @@
 #import "FishViewController.h"
 #import "Fish.h"
 #import "DustMite.h"
+#import <stdlib.h>
 
 
 @implementation GameViewController
@@ -93,14 +94,18 @@ float score = 0;
 		//instantiate the fish
 		theFish = [[Fish alloc] init];
 		[self.view addSubview:theFish];
-		int random = rand() % 10;
 		mitesArray = [[NSMutableArray alloc]initWithCapacity:10];
 		
 		//instantiate the mite
 		for (int i = 0; i < 10; i++) {
-			DustMite *theMite = [[DustMite alloc] init];
+			int randomX = arc4random() % 700;
+			int randomY = arc4random() % 900;
+			int miteRandomX = (arc4random() % 15) + 5;
+			int miteRandomY = (arc4random() % 15) +5;
+			DustMite *theMite = [[DustMite alloc] init:miteRandomX:miteRandomY];
+		
 			[self.view addSubview:theMite];
-			CGPoint p = CGPointMake(( random + random), (10 * (i * random)) );
+			CGPoint p = CGPointMake(randomX, randomY );
 			[theMite setCenter:p];
 			
 			[mitesArray insertObject:theMite atIndex:i];
@@ -125,8 +130,8 @@ float score = 0;
 		DustMite *collisionMite;
 		collisionMite = [mitesArray objectAtIndex:i];
 	
-	if(theFish.YPos > (collisionMite.YPos-70) && theFish.YPos < (collisionMite.YPos +70)){
-		if(theFish.XPos > (collisionMite.XPos-70) && theFish.XPos < (collisionMite.XPos +70))
+	if(theFish.YPos > (collisionMite.YPos-35) && theFish.YPos < (collisionMite.YPos +35)){
+		if(theFish.XPos > (collisionMite.XPos-35) && theFish.XPos < (collisionMite.XPos +35))
 		{
 			//printf("HIT! numMites = %d\n", [mitesArray count]);
 			

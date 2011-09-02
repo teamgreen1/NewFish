@@ -15,6 +15,7 @@
 	NSTimer *timer;
 	float xdir;
 	float ydir;
+	int randomNum;
 }
 
 @property float XSpeed;
@@ -22,9 +23,11 @@
 
 @property float XPos;
 @property float YPos;
+@property int randomNum;
 
 @property (nonatomic,retain) NSTimer *timer;
 
+-(id) init:(int)randomX : (int)randomY;
 -(void) updateMite;
 -(void) hit;
 -(void) toggleTimer;
