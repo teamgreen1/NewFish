@@ -23,6 +23,8 @@
 -(IBAction)goToMainMenu;
 -(IBAction)pause;
 -(IBAction)continueGame;
+
+-(void)checkCollision;
 -(void)toggleTimer;
 
 @property (nonatomic, retain) IBOutlet UILabel *scoreLabel;

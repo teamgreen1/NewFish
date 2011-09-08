@@ -45,6 +45,7 @@
 		B29BC13A140224F300A136FA /* AsthmapediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B29BC138140224F300A136FA /* AsthmapediaViewController.m */; };
 		B29BC13B140224F300A136FA /* AsthmapediaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B29BC139140224F300A136FA /* AsthmapediaViewController.xib */; };
 		B29BC192140228D900A136FA /* Fish.m in Sources */ = {isa = PBXBuildFile; fileRef = B29BC191140228D900A136FA /* Fish.m */; };
+		B2B2DBA91418694A00D40994 /* Sprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 861A499F1418618A004C86D1 /* Sprite.m */; };
 		B2B5376D140DA6AE001317FC /* asthmapediaAnimalFur.png in Resources */ = {isa = PBXBuildFile; fileRef = B2B53767140DA6AE001317FC /* asthmapediaAnimalFur.png */; };
 		B2B5376E140DA6AF001317FC /* asthmapediaCold.png in Resources */ = {isa = PBXBuildFile; fileRef = B2B53768140DA6AE001317FC /* asthmapediaCold.png */; };
 		B2B5376F140DA6AF001317FC /* asthmapediaDustMite.png in Resources */ = {isa = PBXBuildFile; fileRef = B2B53769140DA6AE001317FC /* asthmapediaDustMite.png */; };
@@ -550,6 +551,7 @@
 				B219454C140C5D4D00CC80D4 /* AccController.m in Sources */,
 				B219455C140C5DD000CC80D4 /* NewDustMiteShould.m in Sources */,
 				B2194565140C5E9200CC80D4 /* DustMite.m in Sources */,
+				B2B2DBA91418694A00D40994 /* Sprite.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

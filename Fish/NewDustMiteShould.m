@@ -26,6 +26,7 @@
 	//STAssertNotNil(aMite.timer,@"");
 }
 
+/*
 -(void)testBeAbleToPauseTimer
 {
 	
@@ -35,6 +36,6 @@
 	[aMite toggleTimer];
 	//STAssertNotNil(aMite.timer, @"Timer failed to unpause");
 	
-}
+}*/
 
 @end

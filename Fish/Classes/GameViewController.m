@@ -27,7 +27,7 @@ PreventerArray *theLining;
 Fish *theFish;
 NSMutableArray *mitesArray;
 NSTimer *gameTimer;
-float score = 0;
+int score = 0;
 
 
 /*
@@ -99,22 +99,16 @@ float score = 0;
 		mitesArray = [[NSMutableArray alloc]initWithCapacity:10];
 		
 		//instantiate the mite
-		for (int i = 0; i < 10; i++) {
-			
-			int randomX = 100;			
-			randomX = randomX + arc4random() % 500;
-			
-			int randomY = arc4random() % 900;
-			int miteRandomX = (arc4random() % 9) + 2;
-			int miteRandomY = (arc4random() % 9) + 2;
-			DustMite *theMite = [[DustMite alloc] init:miteRandomX:miteRandomY];
+		for (int i = 0; i < 10; i++) {	
+			DustMite *theMite = [[DustMite alloc] init:(300 + (20*i)):50];
 			
 			[self.view addSubview:theMite];
-			CGPoint p = CGPointMake(randomX, randomY );
-			[theMite setCenter:p];
+		//	CGPoint p = CGPointMake(randomX, randomY );
+			//[theMite setCenter:p];
 			
 			[mitesArray insertObject:theMite atIndex:i];
 		}
+		
 		
 		//instantiate the lining
 		theLining = [[PreventerArray alloc] init];
@@ -125,8 +119,7 @@ float score = 0;
 		    [self.view addSubview:pLining];		
 		}
 		
-		//make a timer to check for collisions
-		[NSTimer scheduledTimerWithTimeInterval:1/30.0 target:self selector:@selector(checkCollision) userInfo:nil repeats:true];
+
 		
 		
 		
@@ -141,6 +134,7 @@ float score = 0;
 		DustMite *updateMite = [mitesArray objectAtIndex:i];
 		[updateMite update:theFish];
 	}
+	[self checkCollision];
 }
 
 -(void)checkCollision
@@ -154,7 +148,7 @@ float score = 0;
 		if(theFish.YPos > (collisionMite.YPos-35) && theFish.YPos < (collisionMite.YPos +35)){
 			if(theFish.XPos > (collisionMite.XPos-35) && theFish.XPos < (collisionMite.XPos +35))
 			{
-				//printf("HIT! numMites = %d\n", [mitesArray count]);
+				printf("HIT! numMites = %d\n", [mitesArray count]);
 				
 				
 				[theFish hit];
@@ -164,7 +158,7 @@ float score = 0;
 				
 				//calculate the score and update the score label	
 				score = score + 10;		
-				NSString *theScore = [NSString stringWithFormat:@"Score: %f",score];			  
+				NSString *theScore = [NSString stringWithFormat:@"Score: %i",score];			  
 				[scoreLabel setText:theScore];
 				[scoreLabel setFont:[UIFont fontWithName:@"Suplexmentary Comic NC" size:36]];
 				printf("HIT! numMites = %d\n", [mitesArray count]);

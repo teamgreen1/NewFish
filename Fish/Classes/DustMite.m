@@ -18,18 +18,14 @@ float sprite_radius = 25;
     self = [super initWithImage:[UIImage imageNamed:@"dustMite.png"]];
     if(self){
 		
-        [self setFrame:CGRectMake(0, 0, sprite_radius*3, sprite_radius*2)];
+		XPos = randomX;
+		YPos = randomY;
+        [self setFrame:CGRectMake(XPos, YPos, sprite_radius*3, sprite_radius*2)];
 		
+
+		self.chooseTarget;
 		
-		/*
-		 * Deals with creating different moving mites
-		 *
-		 */
-		
-		xdir = randomX;
-		ydir = randomY;
-		
-		//[self toggleTimer];
+				
     }
     return self;
 }

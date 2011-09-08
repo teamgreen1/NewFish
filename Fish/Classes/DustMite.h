@@ -10,8 +10,10 @@
 
 @interface DustMite : Sprite
 {
+
 }
 
 -(id) init:(int)randomX :(int)randomY;
+
 
 @end

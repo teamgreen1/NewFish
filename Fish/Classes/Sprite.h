@@ -12,10 +12,12 @@
 @interface Sprite : UIImageView {
 	float XSpeed;
 	float YSpeed;
-	//NSTimer *timer;
-	float xdir;
-	float ydir;
+	float XPos;
+	float YPos;
 	int randomNum;
+	int targetX;
+	int targetY;
+	float direction;
 }
 
 @property float XSpeed;
@@ -24,12 +26,14 @@
 @property float XPos;
 @property float YPos;
 @property int randomNum;
+@property float direction;
 
-//@property (nonatomic,retain) NSTimer *timer;
+
 
 -(void) update: (Fish *)aFish;
 -(void) hit;
--(void)rebound;
-//-(void) toggleTimer;
+-(void)	rebound;
+-(void)	move: (Fish *)aFish;
+-(void) chooseTarget;
 
 @end
