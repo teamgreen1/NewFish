@@ -7,6 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+//@class PreventerArray;
+//@class PreventerLining;
+
 
 
 @interface GameViewController : UIViewController {
@@ -20,6 +23,7 @@
 -(IBAction)goToMainMenu;
 -(IBAction)pause;
 -(IBAction)continueGame;
+-(void)toggleTimer;
 
 @property (nonatomic, retain) IBOutlet UILabel *scoreLabel;
 @property (nonatomic, retain) IBOutlet UIButton *continueButton;

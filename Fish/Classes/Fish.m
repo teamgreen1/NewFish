@@ -52,10 +52,10 @@ float friction = .6;
 	
 	if(newX > (width - ball_radius)){//if the fish is beyond the width
 		
-		XPos = width - ball_radius;
+		//XPos = width - ball_radius;
 		XSpeed = -XSpeed;
 		XSpeed *= friction;
-		XSpeed += acc.gx;
+		//XSpeed += acc.gx;
 		
 	}			
 	if (newX < ball_radius) {

@@ -7,12 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class Fish;
 
 @interface DustMite : UIImageView {
 	float XSpeed;
 	float YSpeed;
-	NSTimer *timer;
+	//NSTimer *timer;
 	float xdir;
 	float ydir;
 	int randomNum;
@@ -25,11 +25,12 @@
 @property float YPos;
 @property int randomNum;
 
-@property (nonatomic,retain) NSTimer *timer;
+//@property (nonatomic,retain) NSTimer *timer;
 
 -(id) init:(int)randomX : (int)randomY;
--(void) updateMite;
+-(void) update: (Fish *)aFish;
 -(void) hit;
--(void) toggleTimer;
+-(void)rebound;
+//-(void) toggleTimer;
 
 @end

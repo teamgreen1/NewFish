@@ -7,6 +7,7 @@
 //
 
 #import "DustMite.h"
+#import "Fish.h"
 #import <stdlib.h>
 
 
@@ -18,7 +19,7 @@
 @synthesize YPos;
 @synthesize randomNum;
 
-@synthesize timer;
+//@synthesize timer;
 
 float screen_width = 768;
 float screen_height = 1002;
@@ -41,13 +42,14 @@ float mite_radius = 25;
 			xdir = randomX;
 			ydir = randomY;
 
-		[self toggleTimer];
+		//[self toggleTimer];
     }
     return self;
 }
 
--(void) updateMite
-{
+-(void) update: (Fish *)aFish{
+
+	
 	XPos = self.center.x + xdir;
 	YPos = self.center.y + ydir;
 	
@@ -63,17 +65,25 @@ float mite_radius = 25;
 	[self setCenter:CGPointMake(XPos, YPos)];
 }
 
--(void)hit
-{
+-(void)hit{
 	self.hidden = TRUE;
+}
+
+-(void)rebound{
+	xdir = -xdir;
+	
+	XPos = self.center.x + xdir;
+	YPos = self.center.y + ydir;
+	
+	[self setCenter:CGPointMake(XPos, YPos)];
 }
 
 
 /*
  * A method to pause the timer
  */
--(void)toggleTimer
-{
+/*
+-(void)toggleTimer{
 	if(self.timer == nil){//if the timer is currently empty then set it
 			self.timer = [NSTimer scheduledTimerWithTimeInterval:1/30.0 target:self selector:@selector(updateMite) userInfo:nil repeats:true];
 	}
@@ -82,5 +92,7 @@ float mite_radius = 25;
 		self.timer = nil;
 	}
 }
+*/
+
 
 @end

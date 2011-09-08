@@ -63,6 +63,10 @@
 		B2C95302140B3A63007639A4 /* pauseButtonPress.png in Resources */ = {isa = PBXBuildFile; fileRef = B2C952FE140B3A63007639A4 /* pauseButtonPress.png */; };
 		B2D812211403191900F6CEF2 /* fish.png in Resources */ = {isa = PBXBuildFile; fileRef = B2D812201403191900F6CEF2 /* fish.png */; };
 		B2D8123E1403194F00F6CEF2 /* AccController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D8123D1403194F00F6CEF2 /* AccController.m */; };
+		B2E053D614159CE200EABDA0 /* PreventerArray.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E053D314159CE200EABDA0 /* PreventerArray.m */; };
+		B2E053D714159CE200EABDA0 /* PreventerLining.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E053D514159CE200EABDA0 /* PreventerLining.m */; };
+		B2E053E414159D7E00EABDA0 /* preventerBubbleGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = B2E053E214159D7E00EABDA0 /* preventerBubbleGreen.png */; };
+		B2E053E514159D7E00EABDA0 /* preventerBubbleRed.png in Resources */ = {isa = PBXBuildFile; fileRef = B2E053E314159D7E00EABDA0 /* preventerBubbleRed.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -148,6 +152,12 @@
 		B2D812201403191900F6CEF2 /* fish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fish.png; sourceTree = "<group>"; };
 		B2D8123C1403194500F6CEF2 /* AccController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccController.h; sourceTree = "<group>"; };
 		B2D8123D1403194F00F6CEF2 /* AccController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccController.m; sourceTree = "<group>"; };
+		B2E053D214159CE200EABDA0 /* PreventerArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreventerArray.h; sourceTree = "<group>"; };
+		B2E053D314159CE200EABDA0 /* PreventerArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreventerArray.m; sourceTree = "<group>"; };
+		B2E053D414159CE200EABDA0 /* PreventerLining.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreventerLining.h; sourceTree = "<group>"; };
+		B2E053D514159CE200EABDA0 /* PreventerLining.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreventerLining.m; sourceTree = "<group>"; };
+		B2E053E214159D7E00EABDA0 /* preventerBubbleGreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = preventerBubbleGreen.png; sourceTree = "<group>"; };
+		B2E053E314159D7E00EABDA0 /* preventerBubbleRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = preventerBubbleRed.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +184,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				B2E052C1141595BB00EABDA0 /* Preventer Lining */,
 				B20718D7140DD1F400A9574C /* Objects */,
 				B29BC1BB14022A6500A136FA /* Views */,
 				B29BC1BA14022A5300A136FA /* Characters */,
@@ -313,6 +324,8 @@
 		B277266014036415004751A1 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				B2E053E214159D7E00EABDA0 /* preventerBubbleGreen.png */,
+				B2E053E314159D7E00EABDA0 /* preventerBubbleRed.png */,
 				B20718C7140DCFCE00A9574C /* asthmaWaikatoLogo.png */,
 				B20718C2140DCE2E00A9574C /* logos.png */,
 				B2194640140C866900CC80D4 /* Asthmapedia Items */,
@@ -352,6 +365,17 @@
 				B2C867C8140B2DDD00E2EA14 /* CreditsViewController.m */,
 			);
 			name = Views;
+			sourceTree = "<group>";
+		};
+		B2E052C1141595BB00EABDA0 /* Preventer Lining */ = {
+			isa = PBXGroup;
+			children = (
+				B2E053D214159CE200EABDA0 /* PreventerArray.h */,
+				B2E053D314159CE200EABDA0 /* PreventerArray.m */,
+				B2E053D414159CE200EABDA0 /* PreventerLining.h */,
+				B2E053D514159CE200EABDA0 /* PreventerLining.m */,
+			);
+			name = "Preventer Lining";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -455,6 +479,8 @@
 				B282954D141074430041B471 /* fluVirus.png in Resources */,
 				B282954E141074430041B471 /* pollen.png in Resources */,
 				B282954F141074430041B471 /* smoke.png in Resources */,
+				B2E053E414159D7E00EABDA0 /* preventerBubbleGreen.png in Resources */,
+				B2E053E514159D7E00EABDA0 /* preventerBubbleRed.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +527,8 @@
 				B2C867CA140B2DDD00E2EA14 /* CreditsViewController.m in Sources */,
 				B2C867CF140B2E1500E2EA14 /* LevelSelectViewController.m in Sources */,
 				B20718DA140DD22800A9574C /* ScrollingController.m in Sources */,
+				B2E053D614159CE200EABDA0 /* PreventerArray.m in Sources */,
+				B2E053D714159CE200EABDA0 /* PreventerLining.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
