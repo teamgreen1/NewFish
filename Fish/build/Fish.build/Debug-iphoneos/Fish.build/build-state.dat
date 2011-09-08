@@ -1,7 +1,7 @@
 TFish
 v7
 r0
-t337159550.683843
+t337160044.226071
 cCheck dependencies
 cCpResource build/Debug-iphoneos/Fish.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
 cProcessInfoPlistFile /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/Info.plist Fish-Info.plist
@@ -39,6 +39,10 @@ cCopyPNGFile /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/pol
 cCopyPNGFile /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/smoke.png smoke.png
 cCopyPNGFile /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/preventerBubbleGreen.png preventerBubbleGreen.png
 cCopyPNGFile /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/preventerBubbleRed.png preventerBubbleRed.png
+cCopyPNGFile /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/levelScoreStars.png levelScoreStars.png
+cCopyPNGFile /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/levelSelectBase.png levelSelectBase.png
+cCopyPNGFile /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/levelSelectBaseOver.png levelSelectBaseOver.png
+cCopyPNGFile /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/levelSelectLockedGrey.png levelSelectLockedGrey.png
 cProcessPCH /var/folders/2X/2XWXbhY0HayA4NdwuGNXi-6scts/-Caches-/com.apple.Xcode.305701790/SharedPrecompiledHeaders/Fish_Prefix-alcmdwvknougubfuueykjewgcjlt/Fish_Prefix.pch.gch Fish_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/Fish.build/Debug-iphoneos/Fish.build/Objects-normal/armv7/main.o /Users/dl106/Desktop/NewFish/Fish/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/Fish.build/Debug-iphoneos/Fish.build/Objects-normal/armv7/FishAppDelegate.o /Users/dl106/Desktop/NewFish/Fish/Classes/FishAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
@@ -1529,9 +1533,9 @@ i"FishViewController.h"
 i"GameViewController.h"
 
 N/Users/dl106/Desktop/NewFish/Fish/Classes/LevelSelectViewController.xib
-c000000004E682FEA0000000000005DA5
-t1315450858
-s23973
+c000000004E686E7F0000000000008E39
+t1315466879
+s36409
 
 N/Users/dl106/Desktop/NewFish/Fish/Classes/OptionsViewController.h
 c000000004E682FEA00000000000001F0
@@ -1708,8 +1712,8 @@ t1315450858
 s8359
 
 N/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app
-t1315466750
-s1734
+t1315467244
+s1870
 
 N/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app.dSYM
 t1315466750
@@ -1725,7 +1729,7 @@ s3353
 
 N/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/Fish
 t1315466750
-s68880
+s75200
 
 N/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/FishViewController.nib
 t1315450858
@@ -1740,8 +1744,8 @@ t1315450858
 s1014
 
 N/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/LevelSelectViewController.nib
-t1315450858
-s4090
+t1315467242
+s5826
 
 N/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/MainWindow.nib
 t1315450858
@@ -1846,6 +1850,22 @@ s5971
 N/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/flu_virus.jpg
 t1314579167
 s24864
+
+N/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/levelScoreStars.png
+t1315467233
+s3432
+
+N/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/levelSelectBase.png
+t1315467233
+s6170
+
+N/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/levelSelectBaseOver.png
+t1315467233
+s5280
+
+N/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/levelSelectLockedGrey.png
+t1315467233
+s6444
 
 N/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/logos.png
 t1315450955
@@ -1980,6 +2000,26 @@ N/Users/dl106/Desktop/NewFish/Fish/flu_virus.jpg
 c000000004E5AE0630000000000006120
 t1314578531
 s24864
+
+N/Users/dl106/Desktop/NewFish/Fish/levelScoreStars.png
+c000000004E686E7F0000000000000D3A
+t1315466879
+s3386
+
+N/Users/dl106/Desktop/NewFish/Fish/levelSelectBase.png
+c000000004E686E7F000000000000148F
+t1315466879
+s5263
+
+N/Users/dl106/Desktop/NewFish/Fish/levelSelectBaseOver.png
+c000000004E686E7F00000000000012CF
+t1315466879
+s4815
+
+N/Users/dl106/Desktop/NewFish/Fish/levelSelectLockedGrey.png
+c000000004E686E7F000000000000160D
+t1315466879
+s5645
 
 N/Users/dl106/Desktop/NewFish/Fish/logos.png
 c000000004E682FEB000000000004116D
@@ -3776,7 +3816,7 @@ lSLF07#2@48"Analyze /Users/dl106/Desktop/OldFish/Fish/main.m336541305#336541305#
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies337159549#337159550#0(0"0(0#1#0"2464039568#0"0#
+lSLF07#2@18"Check dependencies337160031#337160032#0(0"0(0#1#0"2464039568#0"0#
 
 CCodeSign "/Users/dl106/Desktop/untitled folder/Fish/build/Debug-iphoneos/Fish.app"
 s336284685.400968
@@ -3804,12 +3844,13 @@ x/Users/dl106/Desktop/Fish/build/Debug-iphoneos/Fish.app
 lSLF07#2@38"CodeSign build/Debug-iphoneos/Fish.app336365224#336365225#0(0"0(0#0#55"/Users/dl106/Desktop/Fish/build/Debug-iphoneos/Fish.app2464039568#582"    cd /Users/dl106/Desktop/Fish    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Daniel  Loomb (4YK6D7JV73)" --resource-rules=/Users/dl106/Desktop/Fish/build/Debug-iphoneos/Fish.app/ResourceRules.plist --entitlements /Users/dl106/Desktop/Fish/build/Fish.build/Debug-iphoneos/Fish.build/Fish.xcent /Users/dl106/Desktop/Fish/build/Debug-iphoneos/Fish.app0#
 
 CCodeSign /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app
-s337159550.377607
-e337159550.683789
+s337160043.535820
+e337160044.226015
 r1
 xCodeSign
 x/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app
-lSLF07#2@38"CodeSign build/Debug-iphoneos/Fish.app337159550#337159550#0(0"0(0#0#63"/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app2464039568#614"    cd /Users/dl106/Desktop/NewFish/Fish    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Daniel  Loomb (4YK6D7JV73)" --resource-rules=/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/ResourceRules.plist --entitlements /Users/dl106/Desktop/NewFish/Fish/build/Fish.build/Debug-iphoneos/Fish.build/Fish.xcent /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app0#
+o/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app: replacing existing signature
+lSLF07#2@38"CodeSign build/Debug-iphoneos/Fish.app337160043#337160044#0(94"/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app: replacing existing signature0(0#0#63"/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app2464039568#614"    cd /Users/dl106/Desktop/NewFish/Fish    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Daniel  Loomb (4YK6D7JV73)" --resource-rules=/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/ResourceRules.plist --entitlements /Users/dl106/Desktop/NewFish/Fish/build/Fish.build/Debug-iphoneos/Fish.build/Fish.xcent /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app0#
 
 CCodeSign /Users/dl106/Desktop/OldFish/Fish/build/Debug-iphoneos/Fish.app
 s336622713.374685
@@ -5167,7 +5208,14 @@ o2011-08-31 13:57:33.335 Interface Builder Cocoa Touch Tool[29460:1803] CFPrefer
 lSLF07#2@44"CompileXIB Classes/CreditsViewController.xib336448652#336448653#0(240"2011-08-31 13:57:33.335 Interface Builder Cocoa Touch Tool[29460:1803] CFPreferences: user home directory at file://localhost/Users/dl106/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.0(0#0#67"/Users/dl106/Desktop/NewFish/Fish/Classes/CreditsViewController.xib2464039568#554"    cd /Users/dl106/Desktop/NewFish/Fish    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/CreditsViewController.nib /Users/dl106/Desktop/NewFish/Fish/Classes/CreditsViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
 
 CCompileXIB /Users/dl106/Desktop/NewFish/Fish/Classes/LevelSelectViewController.xib
-r0
+s337160032.522550
+e337160043.417412
+r1
+xCompileXIB
+x/Users/dl106/Desktop/NewFish/Fish/Classes/LevelSelectViewController.xib
+o2011-09-08 19:34:00.784 Interface Builder Cocoa Touch Tool[4137:1803] CFPreferences: user home directory at file://localhost/Users/dl106/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@48"CompileXIB Classes/LevelSelectViewController.xib337160032#337160043#0(323"2011-09-08 19:34:00.784 Interface Builder Cocoa Touch Tool[4137:1803] CFPreferences: user home directory at file://localhost/Users/dl106/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#71"/Users/dl106/Desktop/NewFish/Fish/Classes/LevelSelectViewController.xib4750400#562"    cd /Users/dl106/Desktop/NewFish/Fish    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/LevelSelectViewController.nib /Users/dl106/Desktop/NewFish/Fish/Classes/LevelSelectViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
 
 CCompileXIB /Users/dl106/Desktop/NewFish/Fish/Classes/OptionsViewController.xib
 r0
@@ -5531,6 +5579,42 @@ xCopyPNGFile
 x/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/fluVirus.png
 xfluVirus.png
 lSLF07#2@67"CopyPNGFile build/Debug-iphoneos/Fish.app/fluVirus.png fluVirus.png337143754#337143754#0(0"0(0#0#46"/Users/dl106/Desktop/NewFish/Fish/fluVirus.png2464039568#446"    cd /Users/dl106/Desktop/NewFish/Fish    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/dl106/Desktop/NewFish/Fish/fluVirus.png /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/fluVirus.png0#
+
+CCopyPNGFile /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/levelScoreStars.png levelScoreStars.png
+s337160032.526451
+e337160033.688575
+r1
+xCopyPNGFile
+x/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/levelScoreStars.png
+xlevelScoreStars.png
+lSLF07#2@81"CopyPNGFile build/Debug-iphoneos/Fish.app/levelScoreStars.png levelScoreStars.png337160032#337160033#0(0"0(0#0#53"/Users/dl106/Desktop/NewFish/Fish/levelScoreStars.png2464039568#460"    cd /Users/dl106/Desktop/NewFish/Fish    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/dl106/Desktop/NewFish/Fish/levelScoreStars.png /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/levelScoreStars.png0#
+
+CCopyPNGFile /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/levelSelectBase.png levelSelectBase.png
+s337160033.688712
+e337160033.755772
+r1
+xCopyPNGFile
+x/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/levelSelectBase.png
+xlevelSelectBase.png
+lSLF07#2@81"CopyPNGFile build/Debug-iphoneos/Fish.app/levelSelectBase.png levelSelectBase.png337160033#337160033#0(0"0(0#0#53"/Users/dl106/Desktop/NewFish/Fish/levelSelectBase.png2464039568#460"    cd /Users/dl106/Desktop/NewFish/Fish    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/dl106/Desktop/NewFish/Fish/levelSelectBase.png /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/levelSelectBase.png0#
+
+CCopyPNGFile /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/levelSelectBaseOver.png levelSelectBaseOver.png
+s337160033.755913
+e337160033.839093
+r1
+xCopyPNGFile
+x/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/levelSelectBaseOver.png
+xlevelSelectBaseOver.png
+lSLF07#2@89"CopyPNGFile build/Debug-iphoneos/Fish.app/levelSelectBaseOver.png levelSelectBaseOver.png337160033#337160033#0(0"0(0#0#57"/Users/dl106/Desktop/NewFish/Fish/levelSelectBaseOver.png2464039568#468"    cd /Users/dl106/Desktop/NewFish/Fish    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/dl106/Desktop/NewFish/Fish/levelSelectBaseOver.png /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/levelSelectBaseOver.png0#
+
+CCopyPNGFile /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/levelSelectLockedGrey.png levelSelectLockedGrey.png
+s337160033.839253
+e337160033.929719
+r1
+xCopyPNGFile
+x/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/levelSelectLockedGrey.png
+xlevelSelectLockedGrey.png
+lSLF07#2@93"CopyPNGFile build/Debug-iphoneos/Fish.app/levelSelectLockedGrey.png levelSelectLockedGrey.png337160033#337160033#0(0"0(0#0#59"/Users/dl106/Desktop/NewFish/Fish/levelSelectLockedGrey.png2464039568#472"    cd /Users/dl106/Desktop/NewFish/Fish    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/dl106/Desktop/NewFish/Fish/levelSelectLockedGrey.png /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/levelSelectLockedGrey.png0#
 
 CCopyPNGFile /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/logos.png logos.png
 s337143753.345485
@@ -6209,12 +6293,12 @@ x/Users/dl106/Desktop/Fish/build/Debug-iphoneos/Fish.app
 lSLF07#2@61"Touch /Users/dl106/Desktop/Fish/build/Debug-iphoneos/Fish.app336365224#336365224#0(0"0(0#0#0"2464039568#235"    cd /Users/dl106/Desktop/Fish    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/dl106/Desktop/Fish/build/Debug-iphoneos/Fish.app0#
 
 CTouch /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app
-s337159550.368695
-e337159550.377389
+s337160043.420732
+e337160043.535571
 r1
 xTouch
 x/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app
-lSLF07#2@69"Touch /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app337159550#337159550#0(0"0(0#0#0"2464039568#251"    cd /Users/dl106/Desktop/NewFish/Fish    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app0#
+lSLF07#2@69"Touch /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app337160043#337160043#0(0"0(0#0#0"2464039568#251"    cd /Users/dl106/Desktop/NewFish/Fish    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app0#
 
 CTouch /Users/dl106/Desktop/OldFish/Fish/build/Debug-iphoneos/Fish.app
 s336622713.370134

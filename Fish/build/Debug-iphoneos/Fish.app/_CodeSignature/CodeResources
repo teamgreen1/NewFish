@@ -22,7 +22,7 @@
 		</data>
 		<key>LevelSelectViewController.nib</key>
 		<data>
-		N8FcNihPzAZAePDT7Szg05vsPwY=
+		ygv4SDyOK07yp6U51UJqsiAGCJQ=
 		</data>
 		<key>MainWindow.nib</key>
 		<data>
@@ -143,6 +143,22 @@
 		<key>flu_virus.jpg</key>
 		<data>
 		vS90Nzrl1GEY2+AQ23Yqyd48MQk=
+		</data>
+		<key>levelScoreStars.png</key>
+		<data>
+		59F4Se0GbxWuPstC5g93Vx0mTd4=
+		</data>
+		<key>levelSelectBase.png</key>
+		<data>
+		Kl1mzLUch4ssvbihuLDVBDntxLQ=
+		</data>
+		<key>levelSelectBaseOver.png</key>
+		<data>
+		KukPXPmSudZWKnAfGbZ6KwJskno=
+		</data>
+		<key>levelSelectLockedGrey.png</key>
+		<data>
+		LEe5f7DoUWafjsfWIQ67gSdOoX8=
 		</data>
 		<key>logos.png</key>
 		<data>

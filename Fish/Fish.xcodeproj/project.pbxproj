@@ -16,6 +16,10 @@
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* FishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* FishViewController.m */; };
 		861A49A01418618A004C86D1 /* Sprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 861A499F1418618A004C86D1 /* Sprite.m */; };
+		861A49CE14186BBA004C86D1 /* levelScoreStars.png in Resources */ = {isa = PBXBuildFile; fileRef = 861A49CA14186BBA004C86D1 /* levelScoreStars.png */; };
+		861A49CF14186BBA004C86D1 /* levelSelectBase.png in Resources */ = {isa = PBXBuildFile; fileRef = 861A49CB14186BBA004C86D1 /* levelSelectBase.png */; };
+		861A49D014186BBA004C86D1 /* levelSelectBaseOver.png in Resources */ = {isa = PBXBuildFile; fileRef = 861A49CC14186BBA004C86D1 /* levelSelectBaseOver.png */; };
+		861A49D114186BBA004C86D1 /* levelSelectLockedGrey.png in Resources */ = {isa = PBXBuildFile; fileRef = 861A49CD14186BBA004C86D1 /* levelSelectLockedGrey.png */; };
 		B20718C3140DCE2E00A9574C /* logos.png in Resources */ = {isa = PBXBuildFile; fileRef = B20718C2140DCE2E00A9574C /* logos.png */; };
 		B20718C8140DCFCE00A9574C /* asthmaWaikatoLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = B20718C7140DCFCE00A9574C /* asthmaWaikatoLogo.png */; };
 		B20718DA140DD22800A9574C /* ScrollingController.m in Sources */ = {isa = PBXBuildFile; fileRef = B20718D9140DD22800A9574C /* ScrollingController.m */; };
@@ -96,6 +100,10 @@
 		32CA4F630368D1EE00C91783 /* Fish_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fish_Prefix.pch; sourceTree = "<group>"; };
 		861A499E1418618A004C86D1 /* Sprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sprite.h; sourceTree = "<group>"; };
 		861A499F1418618A004C86D1 /* Sprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sprite.m; sourceTree = "<group>"; };
+		861A49CA14186BBA004C86D1 /* levelScoreStars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = levelScoreStars.png; sourceTree = "<group>"; };
+		861A49CB14186BBA004C86D1 /* levelSelectBase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = levelSelectBase.png; sourceTree = "<group>"; };
+		861A49CC14186BBA004C86D1 /* levelSelectBaseOver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = levelSelectBaseOver.png; sourceTree = "<group>"; };
+		861A49CD14186BBA004C86D1 /* levelSelectLockedGrey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = levelSelectLockedGrey.png; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Fish-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Fish-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		B20718C2140DCE2E00A9574C /* logos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logos.png; sourceTree = "<group>"; };
 		B20718C7140DCFCE00A9574C /* asthmaWaikatoLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asthmaWaikatoLogo.png; sourceTree = "<group>"; };
@@ -256,6 +264,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		861A49D214186BD3004C86D1 /* Level select */ = {
+			isa = PBXGroup;
+			children = (
+				861A49CA14186BBA004C86D1 /* levelScoreStars.png */,
+				861A49CB14186BBA004C86D1 /* levelSelectBase.png */,
+				861A49CC14186BBA004C86D1 /* levelSelectBaseOver.png */,
+				861A49CD14186BBA004C86D1 /* levelSelectLockedGrey.png */,
+			);
+			name = "Level select";
+			sourceTree = "<group>";
+		};
 		B20718D7140DD1F400A9574C /* Objects */ = {
 			isa = PBXGroup;
 			children = (
@@ -328,6 +347,7 @@
 		B277266014036415004751A1 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				861A49D214186BD3004C86D1 /* Level select */,
 				B2E053E214159D7E00EABDA0 /* preventerBubbleGreen.png */,
 				B2E053E314159D7E00EABDA0 /* preventerBubbleRed.png */,
 				B20718C7140DCFCE00A9574C /* asthmaWaikatoLogo.png */,
@@ -487,6 +507,10 @@
 				B282954F141074430041B471 /* smoke.png in Resources */,
 				B2E053E414159D7E00EABDA0 /* preventerBubbleGreen.png in Resources */,
 				B2E053E514159D7E00EABDA0 /* preventerBubbleRed.png in Resources */,
+				861A49CE14186BBA004C86D1 /* levelScoreStars.png in Resources */,
+				861A49CF14186BBA004C86D1 /* levelSelectBase.png in Resources */,
+				861A49D014186BBA004C86D1 /* levelSelectBaseOver.png in Resources */,
+				861A49D114186BBA004C86D1 /* levelSelectLockedGrey.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

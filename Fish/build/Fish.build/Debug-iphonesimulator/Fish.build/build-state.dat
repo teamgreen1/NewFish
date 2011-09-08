@@ -1,7 +1,7 @@
 TFish
 v7
 r0
-t337143353.508710
+t337146746.670287
 cCheck dependencies
 cProcessInfoPlistFile /Users/bws5/Desktop/NewFish/Fish/build/Debug-iphonesimulator/Fish.app/Info.plist Fish-Info.plist
 cCompileXIB /Users/bws5/Desktop/NewFish/Fish/MainWindow.xib
@@ -38,6 +38,10 @@ cCpResource build/Debug-iphonesimulator/Fish.app/pollen.png pollen.png
 cCpResource build/Debug-iphonesimulator/Fish.app/smoke.png smoke.png
 cCpResource build/Debug-iphonesimulator/Fish.app/preventerBubbleGreen.png preventerBubbleGreen.png
 cCpResource build/Debug-iphonesimulator/Fish.app/preventerBubbleRed.png preventerBubbleRed.png
+cCpResource build/Debug-iphonesimulator/Fish.app/levelScoreStars.png levelScoreStars.png
+cCpResource build/Debug-iphonesimulator/Fish.app/levelSelectBase.png levelSelectBase.png
+cCpResource build/Debug-iphonesimulator/Fish.app/levelSelectBaseOver.png levelSelectBaseOver.png
+cCpResource build/Debug-iphonesimulator/Fish.app/levelSelectLockedGrey.png levelSelectLockedGrey.png
 cProcessPCH /var/folders/EQ/EQL9qclaGgC78ZlwOPXReY53mxc/-Caches-/com.apple.Xcode.1103481818/SharedPrecompiledHeaders/Fish_Prefix-daypyozaqvztwxblkrzrctpodgwd/Fish_Prefix.pch.gch Fish_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/Fish.build/Debug-iphonesimulator/Fish.build/Objects-normal/i386/main.o /Users/bws5/Desktop/NewFish/Fish/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/Fish.build/Debug-iphonesimulator/Fish.build/Objects-normal/i386/FishAppDelegate.o /Users/bws5/Desktop/NewFish/Fish/Classes/FishAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
@@ -388,6 +392,7 @@ N/Users/bws5/Desktop/NewFish/Fish/Classes/DustMite.m
 c000000004E682E2C0000000000000247
 t1315450412
 s583
+i"DustMite.h"
 
 N/Users/bws5/Desktop/NewFish/Fish/Classes/Fish.h
 c000000004E68299F0000000000000156
@@ -464,9 +469,9 @@ i"FishViewController.h"
 i"GameViewController.h"
 
 N/Users/bws5/Desktop/NewFish/Fish/Classes/LevelSelectViewController.xib
-c000000004E68299F0000000000005DA5
-t1315449247
-s23973
+c000000004E683BF70000000000008E39
+t1315453943
+s36409
 
 N/Users/bws5/Desktop/NewFish/Fish/Classes/OptionsViewController.h
 c000000004E68299F00000000000001F0
@@ -637,8 +642,8 @@ t1315449247
 s8359
 
 N/Users/bws5/Desktop/NewFish/Fish/build/Debug-iphonesimulator/Fish.app
-t1315450553
-s1598
+t1315453946
+s1734
 
 N/Users/bws5/Desktop/NewFish/Fish/build/Debug-iphonesimulator/Fish.app.dSYM
 t1315450553
@@ -669,8 +674,8 @@ t1315449248
 s766
 
 N/Users/bws5/Desktop/NewFish/Fish/build/Debug-iphonesimulator/Fish.app/LevelSelectViewController.nib
-t1315449248
-s4090
+t1315453946
+s5826
 
 N/Users/bws5/Desktop/NewFish/Fish/build/Debug-iphonesimulator/Fish.app/MainWindow.nib
 t1315449248
@@ -755,6 +760,22 @@ s146963
 N/Users/bws5/Desktop/NewFish/Fish/build/Debug-iphonesimulator/Fish.app/fluVirus.png
 t1315449305
 s6164
+
+N/Users/bws5/Desktop/NewFish/Fish/build/Debug-iphonesimulator/Fish.app/levelScoreStars.png
+t1315452951
+s3386
+
+N/Users/bws5/Desktop/NewFish/Fish/build/Debug-iphonesimulator/Fish.app/levelSelectBase.png
+t1315452951
+s5263
+
+N/Users/bws5/Desktop/NewFish/Fish/build/Debug-iphonesimulator/Fish.app/levelSelectBaseOver.png
+t1315452951
+s4815
+
+N/Users/bws5/Desktop/NewFish/Fish/build/Debug-iphonesimulator/Fish.app/levelSelectLockedGrey.png
+t1315452951
+s5645
 
 N/Users/bws5/Desktop/NewFish/Fish/build/Debug-iphonesimulator/Fish.app/logos.png
 t1315449305
@@ -875,6 +896,26 @@ N/Users/bws5/Desktop/NewFish/Fish/fluVirus.png
 c000000004E6829A10000000000001814
 t1315449249
 s6164
+
+N/Users/bws5/Desktop/NewFish/Fish/levelScoreStars.png
+c000000004E6748390000000000000D3A
+t1315391545
+s3386
+
+N/Users/bws5/Desktop/NewFish/Fish/levelSelectBase.png
+c000000004E674843000000000000148F
+t1315391555
+s5263
+
+N/Users/bws5/Desktop/NewFish/Fish/levelSelectBaseOver.png
+c000000004E67485500000000000012CF
+t1315391573
+s4815
+
+N/Users/bws5/Desktop/NewFish/Fish/levelSelectLockedGrey.png
+c000000004E67486D000000000000160D
+t1315391597
+s5645
 
 N/Users/bws5/Desktop/NewFish/Fish/logos.png
 c000000004E6829A1000000000004116D
@@ -2603,7 +2644,7 @@ s1156
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies337143352#337143353#0(0"0(0#1#0"2492514960#0"0#
+lSLF07#2@18"Check dependencies337146745#337146745#0(0"0(0#1#0"2492514960#0"0#
 
 CCompileC build/Fish.build/Debug-iphonesimulator/Fish.build/Objects-normal/i386/AccController.o /Users/bjh31/Documents/Fish/Fish/../Original/OpenDayGame/Classes/AccController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s335748209.374144
@@ -3585,7 +3626,12 @@ CCompileXIB /Users/bws5/Desktop/NewFish/Fish/Classes/CreditsViewController.xib
 r0
 
 CCompileXIB /Users/bws5/Desktop/NewFish/Fish/Classes/LevelSelectViewController.xib
-r0
+s337146745.800161
+e337146746.662319
+r1
+xCompileXIB
+x/Users/bws5/Desktop/NewFish/Fish/Classes/LevelSelectViewController.xib
+lSLF07#2@48"CompileXIB Classes/LevelSelectViewController.xib337146745#337146746#0(0"0(0#0#70"/Users/bws5/Desktop/NewFish/Fish/Classes/LevelSelectViewController.xib2492514960#587"    cd /Users/bws5/Desktop/NewFish/Fish    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/bws5/Desktop/NewFish/Fish/build/Debug-iphonesimulator/Fish.app/LevelSelectViewController.nib /Users/bws5/Desktop/NewFish/Fish/Classes/LevelSelectViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
 
 CCompileXIB /Users/bws5/Desktop/NewFish/Fish/Classes/OptionsViewController.xib
 r0
@@ -4011,6 +4057,42 @@ xbuild/Debug-iphonesimulator/Fish.app/flu_virus.jpg
 xflu_virus.jpg
 lSLF07#2@18"Copy flu_virus.jpg336271969#336271970#0(0"0(0#0#44"/Users/dl106/Desktop/Fish/Fish/flu_virus.jpg2464039568#444"    cd /Users/dl106/Desktop/Fish/Fish    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/dl106/Desktop/Fish/Fish/flu_virus.jpg /Users/dl106/Desktop/Fish/Fish/build/Debug-iphonesimulator/Fish.app0#
 
+CCpResource build/Debug-iphonesimulator/Fish.app/levelScoreStars.png levelScoreStars.png
+s337145751.753207
+e337145751.830013
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Fish.app/levelScoreStars.png
+xlevelScoreStars.png
+lSLF07#2@24"Copy levelScoreStars.png337145751#337145751#0(0"0(0#0#52"/Users/bws5/Desktop/NewFish/Fish/levelScoreStars.png2492514960#456"    cd /Users/bws5/Desktop/NewFish/Fish    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/bws5/Desktop/NewFish/Fish/levelScoreStars.png /Users/bws5/Desktop/NewFish/Fish/build/Debug-iphonesimulator/Fish.app0#
+
+CCpResource build/Debug-iphonesimulator/Fish.app/levelSelectBase.png levelSelectBase.png
+s337145751.775195
+e337145751.830237
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Fish.app/levelSelectBase.png
+xlevelSelectBase.png
+lSLF07#2@24"Copy levelSelectBase.png337145751#337145751#0(0"0(0#0#52"/Users/bws5/Desktop/NewFish/Fish/levelSelectBase.png2492514960#456"    cd /Users/bws5/Desktop/NewFish/Fish    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/bws5/Desktop/NewFish/Fish/levelSelectBase.png /Users/bws5/Desktop/NewFish/Fish/build/Debug-iphonesimulator/Fish.app0#
+
+CCpResource build/Debug-iphonesimulator/Fish.app/levelSelectBaseOver.png levelSelectBaseOver.png
+s337145751.780914
+e337145751.830418
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Fish.app/levelSelectBaseOver.png
+xlevelSelectBaseOver.png
+lSLF07#2@28"Copy levelSelectBaseOver.png337145751#337145751#0(0"0(0#0#56"/Users/bws5/Desktop/NewFish/Fish/levelSelectBaseOver.png2492514960#460"    cd /Users/bws5/Desktop/NewFish/Fish    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/bws5/Desktop/NewFish/Fish/levelSelectBaseOver.png /Users/bws5/Desktop/NewFish/Fish/build/Debug-iphonesimulator/Fish.app0#
+
+CCpResource build/Debug-iphonesimulator/Fish.app/levelSelectLockedGrey.png levelSelectLockedGrey.png
+s337145751.784154
+e337145751.830788
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Fish.app/levelSelectLockedGrey.png
+xlevelSelectLockedGrey.png
+lSLF07#2@30"Copy levelSelectLockedGrey.png337145751#337145751#0(0"0(0#0#58"/Users/bws5/Desktop/NewFish/Fish/levelSelectLockedGrey.png2492514960#462"    cd /Users/bws5/Desktop/NewFish/Fish    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/bws5/Desktop/NewFish/Fish/levelSelectLockedGrey.png /Users/bws5/Desktop/NewFish/Fish/build/Debug-iphonesimulator/Fish.app0#
+
 CCpResource build/Debug-iphonesimulator/Fish.app/logos.png logos.png
 s337142105.135650
 e337142105.196378
@@ -4317,12 +4399,12 @@ x/Users/bjh31/Documents/Fish/Fish/build/Debug-iphonesimulator/Fish.app
 lSLF07#2@75"Touch /Users/bjh31/Documents/Fish/Fish/build/Debug-iphonesimulator/Fish.app335762659#335762659#0(0"0(0#0#0"2575864464#263"    cd /Users/bjh31/Documents/Fish/Fish    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/bjh31/Documents/Fish/Fish/build/Debug-iphonesimulator/Fish.app0#
 
 CTouch /Users/bws5/Desktop/NewFish/Fish/build/Debug-iphonesimulator/Fish.app
-s337143353.504154
-e337143353.508622
+s337146746.665601
+e337146746.670188
 r1
 xTouch
 x/Users/bws5/Desktop/NewFish/Fish/build/Debug-iphonesimulator/Fish.app
-lSLF07#2@75"Touch /Users/bws5/Desktop/NewFish/Fish/build/Debug-iphonesimulator/Fish.app337143353#337143353#0(0"0(0#0#0"2492514960#263"    cd /Users/bws5/Desktop/NewFish/Fish    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/bws5/Desktop/NewFish/Fish/build/Debug-iphonesimulator/Fish.app0#
+lSLF07#2@75"Touch /Users/bws5/Desktop/NewFish/Fish/build/Debug-iphonesimulator/Fish.app337146746#337146746#0(0"0(0#0#0"2492514960#263"    cd /Users/bws5/Desktop/NewFish/Fish    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/bws5/Desktop/NewFish/Fish/build/Debug-iphonesimulator/Fish.app0#
 
 CTouch /Users/dl106/Desktop/Fish/Fish/build/Debug-iphonesimulator/Fish.app
 s336273055.608571
