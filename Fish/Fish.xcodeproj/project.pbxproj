@@ -15,6 +15,7 @@
 		2899E5220DE3E06400AC0155 /* FishViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* FishViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* FishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* FishViewController.m */; };
+		861A49A01418618A004C86D1 /* Sprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 861A499F1418618A004C86D1 /* Sprite.m */; };
 		B20718C3140DCE2E00A9574C /* logos.png in Resources */ = {isa = PBXBuildFile; fileRef = B20718C2140DCE2E00A9574C /* logos.png */; };
 		B20718C8140DCFCE00A9574C /* asthmaWaikatoLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = B20718C7140DCFCE00A9574C /* asthmaWaikatoLogo.png */; };
 		B20718DA140DD22800A9574C /* ScrollingController.m in Sources */ = {isa = PBXBuildFile; fileRef = B20718D9140DD22800A9574C /* ScrollingController.m */; };
@@ -92,6 +93,8 @@
 		28D7ACF70DDB3853001CB0EB /* FishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FishViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Fish_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fish_Prefix.pch; sourceTree = "<group>"; };
+		861A499E1418618A004C86D1 /* Sprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sprite.h; sourceTree = "<group>"; };
+		861A499F1418618A004C86D1 /* Sprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sprite.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Fish-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Fish-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		B20718C2140DCE2E00A9574C /* logos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logos.png; sourceTree = "<group>"; };
 		B20718C7140DCFCE00A9574C /* asthmaWaikatoLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asthmaWaikatoLogo.png; sourceTree = "<group>"; };
@@ -344,6 +347,8 @@
 				B29BC191140228D900A136FA /* Fish.m */,
 				B225D982140628A600DF3B3F /* AnimalFur.h */,
 				B225D983140628A600DF3B3F /* AnimalFur.m */,
+				861A499E1418618A004C86D1 /* Sprite.h */,
+				861A499F1418618A004C86D1 /* Sprite.m */,
 			);
 			name = Characters;
 			sourceTree = "<group>";
@@ -529,6 +534,7 @@
 				B20718DA140DD22800A9574C /* ScrollingController.m in Sources */,
 				B2E053D614159CE200EABDA0 /* PreventerArray.m in Sources */,
 				B2E053D714159CE200EABDA0 /* PreventerLining.m in Sources */,
+				861A49A01418618A004C86D1 /* Sprite.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
