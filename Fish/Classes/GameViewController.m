@@ -10,9 +10,12 @@
 #import "FishViewController.h"
 #import "Fish.h"
 #import "DustMite.h"
+#import "AnimalFur.h"
+#import "Pollen.h"
 #import "PreventerLining.h"
 #import "PreventerArray.h"
 #import <stdlib.h>
+#import <UIKit/UIKit.h>
 
 
 @implementation GameViewController
@@ -25,7 +28,7 @@
 
 PreventerArray *theLining;
 Fish *theFish;
-NSMutableArray *mitesArray;
+NSMutableArray *triggersArray;
 NSTimer *gameTimer;
 int score = 0;
 
@@ -33,8 +36,7 @@ int score = 0;
 /*
  * What to do when the pause button is pressed
  */
--(IBAction)goToMainMenu
-{
+-(IBAction)goToMainMenu{
 	FishViewController *menuView = [[FishViewController alloc] initWithNibName:NULL bundle:NULL];
 	
 	[self presentModalViewController:menuView animated:NO];
@@ -43,8 +45,10 @@ int score = 0;
 /*
  * What to do when the pause button is pressed
  */
--(IBAction)pause
-{
+-(IBAction)pause{
+	
+	//Prevents Screen Locking
+	[UIApplication sharedApplication].idleTimerDisabled = NO;
 	//stop the current characters from moving
 	[theFish toggleTimer];
 
@@ -60,8 +64,10 @@ int score = 0;
 /*
  * What to do when the pause button is pressed
  */
--(IBAction)continueGame
-{
+-(IBAction)continueGame{
+	//Prevents Screen Locking
+	[UIApplication sharedApplication].idleTimerDisabled = YES;
+	
 	//get the characters to resume play
 	[theFish toggleTimer];
 	
@@ -90,23 +96,45 @@ int score = 0;
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
+		
+		//Prevents Screen Locking
+		[UIApplication sharedApplication].idleTimerDisabled = YES;	
 		//instatiate timer
 		gameTimer = [NSTimer scheduledTimerWithTimeInterval:1/30.0 target:self selector:@selector(updateGame) userInfo:nil repeats:true];
 		
 		//instantiate the fish
 		theFish = [[Fish alloc] init];
 		[self.view addSubview:theFish];
-		mitesArray = [[NSMutableArray alloc]initWithCapacity:10];
+		triggersArray = [[NSMutableArray alloc]initWithCapacity:10];
 		
 		//instantiate the mite
-		for (int i = 0; i < 10; i++) {	
-			DustMite *theMite = [[DustMite alloc] init:(300 + (20*i)):50];
+		BOOL spawnSwitch1 = FALSE;
+		BOOL spawnSwitch2 = FALSE;
+		for (int i = 0; i < 20; i++) {
+			if (spawnSwitch1 == FALSE ) {
+				if (spawnSwitch2 == FALSE) {
+					AnimalFur *theFur = [[AnimalFur alloc] init:(300 + (20*i)):50];
+					[self.view addSubview:theFur];
+					[triggersArray insertObject:theFur atIndex:i];
+					
+					spawnSwitch2 = TRUE;
+				}
+				else {
+					Pollen *aPollen = [[Pollen alloc] init:(300 + (20*i)):50];
+					[self.view addSubview:aPollen];
+					[triggersArray insertObject:aPollen atIndex:i];
+					spawnSwitch2 = FALSE;
+				}
+				spawnSwitch1 = TRUE;
+			}
+			else {
+				DustMite *theMite = [[DustMite alloc] init:(300 + (20*i)):50];			
+				[self.view addSubview:theMite];
+				[triggersArray insertObject:theMite atIndex:i];
+				spawnSwitch1 = FALSE;
+			}
 			
-			[self.view addSubview:theMite];
-		//	CGPoint p = CGPointMake(randomX, randomY );
-			//[theMite setCenter:p];
 			
-			[mitesArray insertObject:theMite atIndex:i];
 		}
 		
 		
@@ -129,9 +157,9 @@ int score = 0;
 }
 
 -(void)updateGame{
-	int i = ([mitesArray count]-1);
+	int i = ([triggersArray count]-1);
 	for (i; i >= 0; i--) {
-		DustMite *updateMite = [mitesArray objectAtIndex:i];
+		DustMite *updateMite = [triggersArray objectAtIndex:i];
 		[updateMite update:theFish];
 	}
 	[self checkCollision];
@@ -139,21 +167,21 @@ int score = 0;
 
 -(void)checkCollision
 {
-	int i = ([mitesArray count]-1);
+	int i = ([triggersArray count]-1);
 	for (i; i >= 0; i--) {
 		
 		DustMite *collisionMite;
-		collisionMite = [mitesArray objectAtIndex:i];
+		collisionMite = [triggersArray objectAtIndex:i];
 		
-		if(theFish.YPos > (collisionMite.YPos-35) && theFish.YPos < (collisionMite.YPos +35)){
-			if(theFish.XPos > (collisionMite.XPos-35) && theFish.XPos < (collisionMite.XPos +35))
+		if(theFish.YPos > (collisionMite.YPos-40) && theFish.YPos < (collisionMite.YPos +40)){
+			if(theFish.XPos > (collisionMite.XPos-40) && theFish.XPos < (collisionMite.XPos +40))
 			{
-				printf("HIT! numMites = %d\n", [mitesArray count]);
+				printf("HIT! numMites = %d\n", [triggersArray count]);
 				
 				
 				[theFish hit];
 				[collisionMite removeFromSuperview];
-				[mitesArray removeObjectAtIndex:i];
+				[triggersArray removeObjectAtIndex:i];
 				[collisionMite release];
 				
 				//calculate the score and update the score label	
@@ -161,8 +189,8 @@ int score = 0;
 				NSString *theScore = [NSString stringWithFormat:@"Score: %i",score];			  
 				[scoreLabel setText:theScore];
 				[scoreLabel setFont:[UIFont fontWithName:@"Suplexmentary Comic NC" size:36]];
-				printf("HIT! numMites = %d\n", [mitesArray count]);
-				if ([mitesArray count]  < 1) {
+				printf("HIT! numMites = %d\n", [triggersArray count]);
+				if ([triggersArray count]  < 1) {
 					printf("happend/n");
 					UIAlertView *alertWithOkButto = alertWithOkButto = [[UIAlertView alloc] initWithTitle:@"WIN"
 																								  message:@"YOU HAVE WON! \n YOU'RE THE KING" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
@@ -174,7 +202,7 @@ int score = 0;
 		}
 	}
 	
-	for(DustMite *mite in mitesArray){
+	for(DustMite *mite in triggersArray){
 		[theLining checkCollisionWithTrigger: mite];
 	}
 	

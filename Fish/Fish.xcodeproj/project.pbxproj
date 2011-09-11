@@ -39,6 +39,10 @@
 		B225D984140628A600DF3B3F /* AnimalFur.m in Sources */ = {isa = PBXBuildFile; fileRef = B225D983140628A600DF3B3F /* AnimalFur.m */; };
 		B225D9951406299500DF3B3F /* AnimalFur.m in Sources */ = {isa = PBXBuildFile; fileRef = B225D983140628A600DF3B3F /* AnimalFur.m */; };
 		B2283FC7140B3CF3002EB2A8 /* Suplexmentary Comic NC.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2283FC6140B3CF3002EB2A8 /* Suplexmentary Comic NC.ttf */; };
+		B257452E1418ACBF009C006B /* SpitProjectile.m in Sources */ = {isa = PBXBuildFile; fileRef = B257452D1418ACBF009C006B /* SpitProjectile.m */; };
+		B257453E1418AE6A009C006B /* SpitProjectile.m in Sources */ = {isa = PBXBuildFile; fileRef = B257452D1418ACBF009C006B /* SpitProjectile.m */; };
+		B264C37F1419B44A0060A85A /* Pollen.m in Sources */ = {isa = PBXBuildFile; fileRef = B264C37E1419B44A0060A85A /* Pollen.m */; };
+		B264C4551419B4990060A85A /* Pollen.m in Sources */ = {isa = PBXBuildFile; fileRef = B264C37E1419B44A0060A85A /* Pollen.m */; };
 		B277264C1403631C004751A1 /* DustMite.m in Sources */ = {isa = PBXBuildFile; fileRef = B277264B1403631C004751A1 /* DustMite.m */; };
 		B27726551403635A004751A1 /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B27726541403635A004751A1 /* GameViewController.xib */; };
 		B277265814036373004751A1 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B277265714036373004751A1 /* GameViewController.m */; };
@@ -124,6 +128,10 @@
 		B225D982140628A600DF3B3F /* AnimalFur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalFur.h; sourceTree = "<group>"; };
 		B225D983140628A600DF3B3F /* AnimalFur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimalFur.m; sourceTree = "<group>"; };
 		B2283FC6140B3CF3002EB2A8 /* Suplexmentary Comic NC.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Suplexmentary Comic NC.ttf"; sourceTree = "<group>"; };
+		B257452C1418ACBF009C006B /* SpitProjectile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpitProjectile.h; sourceTree = "<group>"; };
+		B257452D1418ACBF009C006B /* SpitProjectile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpitProjectile.m; sourceTree = "<group>"; };
+		B264C37D1419B44A0060A85A /* Pollen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pollen.h; sourceTree = "<group>"; };
+		B264C37E1419B44A0060A85A /* Pollen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pollen.m; sourceTree = "<group>"; };
 		B277264A1403631C004751A1 /* DustMite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DustMite.h; sourceTree = "<group>"; };
 		B277264B1403631C004751A1 /* DustMite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DustMite.m; sourceTree = "<group>"; };
 		B27726541403635A004751A1 /* GameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameViewController.xib; sourceTree = "<group>"; };
@@ -370,6 +378,10 @@
 				B225D983140628A600DF3B3F /* AnimalFur.m */,
 				861A499E1418618A004C86D1 /* Sprite.h */,
 				861A499F1418618A004C86D1 /* Sprite.m */,
+				B257452C1418ACBF009C006B /* SpitProjectile.h */,
+				B257452D1418ACBF009C006B /* SpitProjectile.m */,
+				B264C37D1419B44A0060A85A /* Pollen.h */,
+				B264C37E1419B44A0060A85A /* Pollen.m */,
 			);
 			name = Characters;
 			sourceTree = "<group>";
@@ -560,6 +572,8 @@
 				B2E053D614159CE200EABDA0 /* PreventerArray.m in Sources */,
 				B2E053D714159CE200EABDA0 /* PreventerLining.m in Sources */,
 				861A49A01418618A004C86D1 /* Sprite.m in Sources */,
+				B257452E1418ACBF009C006B /* SpitProjectile.m in Sources */,
+				B264C37F1419B44A0060A85A /* Pollen.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -576,6 +590,8 @@
 				B219455C140C5DD000CC80D4 /* NewDustMiteShould.m in Sources */,
 				B2194565140C5E9200CC80D4 /* DustMite.m in Sources */,
 				B2B2DBA91418694A00D40994 /* Sprite.m in Sources */,
+				B257453E1418AE6A009C006B /* SpitProjectile.m in Sources */,
+				B264C4551419B4990060A85A /* Pollen.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

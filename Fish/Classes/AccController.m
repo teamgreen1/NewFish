@@ -3,7 +3,7 @@
 //
 #import "AccController.h"
 
-float scale = 1.0;
+float scale = 2.0;
 
 @implementation AccController
 
@@ -18,7 +18,7 @@ float scale = 1.0;
         //register interest in accelerometer
         UIAccelerometer *a = [UIAccelerometer sharedAccelerometer];
         //ask it to update 30 times a second
-        [a setUpdateInterval:1.0/30.0];
+        [a setUpdateInterval:1.0/60.0];
         [a setDelegate:self];
     }
     return self;

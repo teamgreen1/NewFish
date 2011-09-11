@@ -11,13 +11,13 @@
 
 @implementation NewAnimalFurShould
 
--(void)testAnimalFursHealthIs100{
+/*-(void)testAnimalFursHealthIs100{
 	AnimalFur *aFur = [[AnimalFur alloc] init];
 	
 	STAssertEquals(100,aFur.health, @"");
 	
 	[aFur release];
-}
+}*/
 
 -(void)testFailure{
 	STAssertTrue(1,@"");

@@ -2,19 +2,21 @@
 //  AnimalFur.h
 //  Fish
 //
-//  Created by Daniel Loomb on 25/08/11.
+//  Created by Daniel Loomb on 23/08/11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "Sprite.h"
 
-
-@interface AnimalFur : NSObject {
-	int health;
+@interface AnimalFur : Sprite
+{
+	
 }
 
-@property int health;
+-(id) init:(int)randomX :(int)randomY;
 
+-(void) chooseTarget;
+-(void)spitProjectile;
 
 
 @end

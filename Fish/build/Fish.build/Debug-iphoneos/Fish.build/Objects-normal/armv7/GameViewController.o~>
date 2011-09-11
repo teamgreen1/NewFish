@@ -1,0 +1,91 @@
+/Users/dl106/Desktop/NewFish/Fish/Classes/GameViewController.m: In function '-[GameViewController initWithNibName:bundle:]':
+/Users/dl106/Desktop/NewFish/Fish/Classes/GameViewController.m:97: error: expected ']' before '=' token
+/Users/dl106/Desktop/NewFish/Fish/Classes/GameViewController.m:97: warning: 'UIApplication' may not respond to '+idleTimerDisable'
+/Users/dl106/Desktop/NewFish/Fish/Classes/GameViewController.m:97: warning: (Messages without a matching method signature
+/Users/dl106/Desktop/NewFish/Fish/Classes/GameViewController.m:97: warning: will be assumed to return 'id' and accept
+/Users/dl106/Desktop/NewFish/Fish/Classes/GameViewController.m:97: warning: '...' as arguments.)
+{standard input}:468:non-relocatable subtraction expression, "L_gameTimer$non_lazy_ptr" minus "L50"
+{standard input}:468:symbol: "L_gameTimer$non_lazy_ptr" can't be undefined in a subtraction expression
+{standard input}:467:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L49"
+{standard input}:467:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression
+{standard input}:466:non-relocatable subtraction expression, "L_gameTimer$non_lazy_ptr" minus "L48"
+{standard input}:466:symbol: "L_gameTimer$non_lazy_ptr" can't be undefined in a subtraction expression
+{standard input}:465:non-relocatable subtraction expression, "L_gameTimer$non_lazy_ptr" minus "L46"
+{standard input}:465:symbol: "L_gameTimer$non_lazy_ptr" can't be undefined in a subtraction expression
+{standard input}:462:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L45"
+{standard input}:462:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression
+{standard input}:461:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L44"
+{standard input}:461:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression
+{standard input}:460:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L43"
+{standard input}:460:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression
+{standard input}:459:non-relocatable subtraction expression, "L_gameTimer$non_lazy_ptr" minus "L40"
+{standard input}:459:symbol: "L_gameTimer$non_lazy_ptr" can't be undefined in a subtraction expression
+{standard input}:369:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L35"
+{standard input}:369:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression
+{standard input}:368:non-relocatable subtraction expression, "L_OBJC_IVAR_$_GameViewController.pauseButton$non_lazy_ptr" minus "L34"
+{standard input}:368:symbol: "L_OBJC_IVAR_$_GameViewController.pauseButton$non_lazy_ptr" can't be undefined in a subtraction expression
+{standard input}:367:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L33"
+{standard input}:367:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression
+{standard input}:366:non-relocatable subtraction expression, "L_OBJC_IVAR_$_GameViewController.mainMenuButton$non_lazy_ptr" minus "L32"
+{standard input}:366:symbol: "L_OBJC_IVAR_$_GameViewController.mainMenuButton$non_lazy_ptr" can't be undefined in a subtraction expression
+{standard input}:365:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L31"
+{standard input}:365:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression
+{standard input}:364:non-relocatable subtraction expression, "L_OBJC_IVAR_$_GameViewController.levelSelectButton$non_lazy_ptr" minus "L30"
+{standard input}:364:symbol: "L_OBJC_IVAR_$_GameViewController.levelSelectButton$non_lazy_ptr" can't be undefined in a subtraction expression
+{standard input}:363:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L29"
+{standard input}:363:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression
+{standard input}:362:non-relocatable subtraction expression, "L_OBJC_IVAR_$_GameViewController.continueButton$non_lazy_ptr" minus "L28"
+{standard input}:362:symbol: "L_OBJC_IVAR_$_GameViewController.continueButton$non_lazy_ptr" can't be undefined in a subtraction expression
+{standard input}:361:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L27"
+{standard input}:361:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+{standard input}:360:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L26"
+{standard input}:360:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+{standard input}:359:non-relocatable subtraction expression, "L_theFish$non_lazy_ptr" minus "L25"
+{standard input}:359:symbol: "L_theFish$non_lazy_ptr" can't be undefined in a subtraction expression
+{standard input}:239:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L20"
+{standard input}:239:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression
+{standard input}:238:non-relocatable subtraction expression, "L_OBJC_IVAR_$_GameViewController.pauseButton$non_lazy_ptr" minus "L19"
+{standard input}:238:symbol: "L_OBJC_IVAR_$_GameViewController.pauseButton$non_lazy_ptr" can't be undefined in a subtraction expression
+{standard input}:237:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L18"
+{standard input}:237:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression
+{standard input}:236:non-relocatable subtraction expression, "L_OBJC_IVAR_$_GameViewController.mainMenuButton$non_lazy_ptr" minus "L17"
+{standard input}:236:symbol: "L_OBJC_IVAR_$_GameViewController.mainMenuButton$non_lazy_ptr" can't be undefined in a subtraction expression
+{standard input}:235:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L16"
+{standard input}:235:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression
+{standard input}:234:non-relocatable subtraction expression, "L_OBJC_IVAR_$_GameViewController.levelSelectButton$non_lazy_ptr" minus "L15"
+{standard input}:234:symbol: "L_OBJC_IVAR_$_GameViewController.levelSelectButton$non_lazy_ptr" can't be undefined in a subtraction expression
+{standard input}:233:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L14"
+{standard input}:233:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression
+{standard input}:232:non-relocatable subtraction expression, "L_OBJC_IVAR_$_GameViewController.continueButton$non_lazy_ptr" minus "L13"
+{standard input}:232:symbol: "L_OBJC_IVAR_$_GameViewController.continueButton$non_lazy_ptr" can't be undefined in a subtraction expression
+{standard input}:231:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L12"
+{standard input}:231:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+{standard input}:230:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L11"
+{standard input}:230:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+{standard input}:229:non-relocatable subtraction expression, "L_theFish$non_lazy_ptr" minus "L10"
+{standard input}:229:symbol: "L_theFish$non_lazy_ptr" can't be undefined in a subtraction expression
+{standard input}:109:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L5"
+{standard input}:109:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression
+{standard input}:108:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L4"
+{standard input}:108:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+{standard input}:107:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L3"
+{standard input}:107:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+{standard input}:106:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_0" minus "L2"
+{standard input}:106:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_0" can't be undefined in a subtraction expression
+{standard input}:unknown:Undefined local symbol L_objc_msgSend$stub
+{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_0
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2
+{standard input}:unknown:Undefined local symbol L_theFish$non_lazy_ptr
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3
+{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_GameViewController.continueButton$non_lazy_ptr
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4
+{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_GameViewController.levelSelectButton$non_lazy_ptr
+{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_GameViewController.mainMenuButton$non_lazy_ptr
+{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_GameViewController.pauseButton$non_lazy_ptr
+{standard input}:unknown:Undefined local symbol L_gameTimer$non_lazy_ptr
+{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_1
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_6
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_5
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_7

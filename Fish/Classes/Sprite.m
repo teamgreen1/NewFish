@@ -8,8 +8,10 @@
 
 #import "Sprite.h"
 #import "Fish.h"
+#import "Pollen.h"
 #import <stdlib.h>
 #import <math.h>
+
 
 
 @implementation Sprite
@@ -25,6 +27,7 @@
 
 float screen_width = 768;
 float screen_height = 1002;
+
 
 
 -(void) update: (Fish *)aFish{
@@ -48,51 +51,71 @@ float screen_height = 1002;
 
 
 -(void) move: (Fish *) aFish{
-	float k = .1;
-    float restingDistance = 200;
-	float speed = 5;
+	
+	float k = .02;					//strength of the avoidance spring
+    float restingDistance = 200;	//distance the spring starts to take effect
+	float speed = 3;				//the speed to travel.
     
 	
-	
+	//if the trigger has almost reached its target choose a new one
 	if ((int)XPos > (10 - targetX) && (int)XPos < (10 + targetX) && (int)YPos > (10 - targetY) && (int)YPos < (10 + targetY)) {
 		
 		self.chooseTarget;
 	}
 	
 	
+	
 
-	
+	//Works out the direction to head to get to the target
 	float dxTarget = XPos - targetX;
-	float dyTarget = YPos - targetY;
-	
+	float dyTarget = YPos - targetY;	
 	direction = atan2(dyTarget, dxTarget);
 	
-
-	
-	float dxFish =  aFish.XPos - YPos;
-	float dyFish =  aFish.YPos - YPos;
-	
-	float distance = sqrtf(dxFish*dxFish + dyFish*dyFish);
-	
-	float ddx = 0;
-    float ddy = 0;
-    if(distance < restingDistance)
-    {
-        ddx = k*(distance-restingDistance)*(dxFish/distance);
-        ddy = k*(distance-restingDistance)*(dyFish/distance);
-    }
-
+	//works out the speed to apply for the given direction
 	XPos -= speed * cos(direction);
 	YPos -= speed * sin(direction);
-	XPos += ddx;
-	YPos += ddy;
 	
+	
+	//works out the distance between the Fish and the trigger
+	float dxFish =  aFish.XPos - XPos;
+	float dyFish =  aFish.YPos - YPos;	
+	float distance = sqrtf(dxFish*dxFish + dyFish*dyFish);
+
+	if ([self isKindOfClass:[Pollen class]]) {		
+		//adds avoidance to the trigger if it is close to the fish.
+		float ddx = 0;
+		float ddy = 0;
+		if(distance < restingDistance)
+		{
+			ddx = k*(distance-restingDistance)*(dxFish/distance);
+			ddy = k*(distance-restingDistance)*(dyFish/distance);
+		}		
+		//adds teh avoidance to the current position
+		XPos += ddx;
+		YPos += ddy;
+	}
+	
+	if (XPos < 150) {
+		XPos = 150;
+	}
+	if(XPos > 618){
+		XPos = 618;
+	}
+	if (YPos < 150) {
+		YPos = 150;
+	}
+	if (YPos > 854) {
+		YPos = 854;
+	}
+	
+	
+	//draws the result to the screen
 	[self setCenter:CGPointMake(XPos, YPos)];
 }
 
 -(void) chooseTarget{
-	targetX = arc4random() % 530 + 150;
-	targetY = arc4random() % 804 + 150;
+	targetX = arc4random() % 468 + 150;
+	targetY = arc4random() % 704 + 150;
 }
 
 
