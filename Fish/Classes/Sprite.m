@@ -52,8 +52,8 @@ float screen_height = 1002;
 
 -(void) move: (Fish *) aFish{
 	
-	float k = .02;					//strength of the avoidance spring
-    float restingDistance = 200;	//distance the spring starts to take effect
+	float k = .05;					//strength of the avoidance spring
+    float restingDistance = 300;	//distance the spring starts to take effect
 	float speed = 3;				//the speed to travel.
     
 	

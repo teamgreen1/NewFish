@@ -21,21 +21,6 @@
 	[aMite release];
 }
 
--(void)testHaveTimer
-{
-	//STAssertNotNil(aMite.timer,@"");
-}
 
-/*
--(void)testBeAbleToPauseTimer
-{
-	
-	[aMite toggleTimer];
-	//STAssertNil(aMite.timer, @"Timer failed to pause");
-	
-	[aMite toggleTimer];
-	//STAssertNotNil(aMite.timer, @"Timer failed to unpause");
-	
-}*/
 
 @end

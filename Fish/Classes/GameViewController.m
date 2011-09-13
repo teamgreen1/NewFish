@@ -68,6 +68,7 @@ int score = 0;
 	//Prevents Screen Locking
 	[UIApplication sharedApplication].idleTimerDisabled = YES;
 	
+	
 	//get the characters to resume play
 	[theFish toggleTimer];
 	

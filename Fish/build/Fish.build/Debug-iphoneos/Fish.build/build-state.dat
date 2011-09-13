@@ -1,7 +1,7 @@
 TFish
 v7
 r0
-t337468203.832224
+t337474895.545325
 cCheck dependencies
 cCpResource build/Debug-iphoneos/Fish.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
 cProcessInfoPlistFile /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/Info.plist Fish-Info.plist
@@ -59,9 +59,9 @@ cCompileC build/Fish.build/Debug-iphoneos/Fish.build/Objects-normal/armv7/LevelS
 cCompileC build/Fish.build/Debug-iphoneos/Fish.build/Objects-normal/armv7/ScrollingController.o /Users/dl106/Desktop/NewFish/Fish/Classes/ScrollingController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/Fish.build/Debug-iphoneos/Fish.build/Objects-normal/armv7/PreventerArray.o /Users/dl106/Desktop/NewFish/Fish/Classes/PreventerArray.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/Fish.build/Debug-iphoneos/Fish.build/Objects-normal/armv7/PreventerLining.o /Users/dl106/Desktop/NewFish/Fish/Classes/PreventerLining.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Fish.build/Debug-iphoneos/Fish.build/Objects-normal/armv7/Sprite.o /Users/dl106/Desktop/NewFish/Fish/Classes/Sprite.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/Fish.build/Debug-iphoneos/Fish.build/Objects-normal/armv7/SpitProjectile.o /Users/dl106/Desktop/NewFish/Fish/Classes/SpitProjectile.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/Fish.build/Debug-iphoneos/Fish.build/Objects-normal/armv7/Pollen.o /Users/dl106/Desktop/NewFish/Fish/Classes/Pollen.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Fish.build/Debug-iphoneos/Fish.build/Objects-normal/armv7/Sprite.o /Users/dl106/Desktop/NewFish/Fish/Classes/Sprite.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 cLd /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/Fish normal armv7
 cGenerateDSYMFile /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app.dSYM /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/Fish
 cProcessProductPackaging "/Users/dl106/Library/MobileDevice/Provisioning Profiles/199CA357-5BFB-4C72-B897-77F6A4ED03E0.mobileprovision" /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/embedded.mobileprovision
@@ -1510,9 +1510,9 @@ s845
 i<UIKit/UIKit.h>
 
 N/Users/dl106/Desktop/NewFish/Fish/Classes/GameViewController.m
-c000000004E6D23AA0000000000003D48
-t1315775402
-s15688
+c000000004E6D34820000000000003E6D
+t1315779714
+s15981
 i"GameViewController.h"
 i"FishViewController.h"
 i"Fish.h"
@@ -1522,6 +1522,7 @@ i"Pollen.h"
 i"PreventerLining.h"
 i"PreventerArray.h"
 i<stdlib.h>
+i<UIKit/UIKit.h>
 
 N/Users/dl106/Desktop/NewFish/Fish/Classes/LevelSelectViewController.h
 c000000004E682FEA000000000000011A
@@ -1630,9 +1631,9 @@ s593
 i<UIKit/UIKit.h>
 
 N/Users/dl106/Desktop/NewFish/Fish/Classes/Sprite.m
-c000000004E6D23AA00000000000008FC
-t1315775402
-s2300
+c000000004E6D3DB200000000000008FE
+t1315782066
+s2302
 i"Sprite.h"
 i"Fish.h"
 i"Pollen.h"
@@ -1742,11 +1743,11 @@ t1315450858
 s8359
 
 N/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app
-t1315775403
+t1315782095
 s1870
 
 N/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app.dSYM
-t1315775403
+t1315782067
 s102
 
 N/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/AsthmapediaViewController.nib
@@ -1758,7 +1759,7 @@ t1315450858
 s3353
 
 N/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/Fish
-t1315775402
+t1315782066
 s80816
 
 N/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/FishViewController.nib
@@ -1975,8 +1976,8 @@ t1315465341
 s52604
 
 N/Users/dl106/Desktop/NewFish/Fish/build/Fish.build/Debug-iphoneos/Fish.build/Objects-normal/armv7/GameViewController.o
-t1315775402
-s63748
+t1315782006
+s67048
 
 N/Users/dl106/Desktop/NewFish/Fish/build/Fish.build/Debug-iphoneos/Fish.build/Objects-normal/armv7/LevelSelectViewController.o
 t1315465341
@@ -2007,7 +2008,7 @@ t1315469509
 s40472
 
 N/Users/dl106/Desktop/NewFish/Fish/build/Fish.build/Debug-iphoneos/Fish.build/Objects-normal/armv7/Sprite.o
-t1315775402
+t1315782066
 s47856
 
 N/Users/dl106/Desktop/NewFish/Fish/build/Fish.build/Debug-iphoneos/Fish.build/Objects-normal/armv7/main.o
@@ -3854,7 +3855,7 @@ lSLF07#2@48"Analyze /Users/dl106/Desktop/OldFish/Fish/main.m336541305#336541305#
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies337468202#337468202#0(0"0(0#1#0"2464039568#0"0#
+lSLF07#2@18"Check dependencies337474895#337474895#0(0"0(0#1#0"2464039568#0"0#
 
 CCodeSign "/Users/dl106/Desktop/untitled folder/Fish/build/Debug-iphoneos/Fish.app"
 s336284685.400968
@@ -3882,12 +3883,13 @@ x/Users/dl106/Desktop/Fish/build/Debug-iphoneos/Fish.app
 lSLF07#2@38"CodeSign build/Debug-iphoneos/Fish.app336365224#336365225#0(0"0(0#0#55"/Users/dl106/Desktop/Fish/build/Debug-iphoneos/Fish.app2464039568#582"    cd /Users/dl106/Desktop/Fish    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Daniel  Loomb (4YK6D7JV73)" --resource-rules=/Users/dl106/Desktop/Fish/build/Debug-iphoneos/Fish.app/ResourceRules.plist --entitlements /Users/dl106/Desktop/Fish/build/Fish.build/Debug-iphoneos/Fish.build/Fish.xcent /Users/dl106/Desktop/Fish/build/Debug-iphoneos/Fish.app0#
 
 CCodeSign /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app
-s337468203.176995
-e337468203.832165
+s337474895.230942
+e337474895.545262
 r1
 xCodeSign
 x/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app
-lSLF07#2@38"CodeSign build/Debug-iphoneos/Fish.app337468203#337468203#0(0"0(0#0#63"/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app2464039568#614"    cd /Users/dl106/Desktop/NewFish/Fish    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Daniel  Loomb (4YK6D7JV73)" --resource-rules=/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/ResourceRules.plist --entitlements /Users/dl106/Desktop/NewFish/Fish/build/Fish.build/Debug-iphoneos/Fish.build/Fish.xcent /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app0#
+o/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app: replacing existing signature
+lSLF07#2@38"CodeSign build/Debug-iphoneos/Fish.app337474895#337474895#0(94"/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app: replacing existing signature0(0#0#63"/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app2464039568#614"    cd /Users/dl106/Desktop/NewFish/Fish    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Daniel  Loomb (4YK6D7JV73)" --resource-rules=/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/ResourceRules.plist --entitlements /Users/dl106/Desktop/NewFish/Fish/build/Fish.build/Debug-iphoneos/Fish.build/Fish.xcent /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app0#
 
 CCodeSign /Users/dl106/Desktop/OldFish/Fish/build/Debug-iphoneos/Fish.app
 s336622713.374685
@@ -4723,8 +4725,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@67"Compile /Users/dl106/Desktop/Fish/Fish/Classes/GameViewController.m336283668#336283668#0(0"0(0#0#59"/Users/dl106/Desktop/Fish/Fish/Classes/GameViewController.m2464039568#1618"    cd /Users/dl106/Desktop/Fish/Fish    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/dl106/Desktop/Fish/Fish/build/Fish.build/Debug-iphoneos/Fish.build/Fish-generated-files.hmap -I/Users/dl106/Desktop/Fish/Fish/build/Fish.build/Debug-iphoneos/Fish.build/Fish-own-target-headers.hmap -I/Users/dl106/Desktop/Fish/Fish/build/Fish.build/Debug-iphoneos/Fish.build/Fish-all-target-headers.hmap -iquote /Users/dl106/Desktop/Fish/Fish/build/Fish.build/Debug-iphoneos/Fish.build/Fish-project-headers.hmap -F/Users/dl106/Desktop/Fish/Fish/build/Debug-iphoneos -I/Users/dl106/Desktop/Fish/Fish/build/Debug-iphoneos/include -I/Users/dl106/Desktop/Fish/Fish/build/Fish.build/Debug-iphoneos/Fish.build/DerivedSources/armv7 -I/Users/dl106/Desktop/Fish/Fish/build/Fish.build/Debug-iphoneos/Fish.build/DerivedSources -include /var/folders/2X/2XWXbhY0HayA4NdwuGNXi-6scts/-Caches-/com.apple.Xcode.305701790/SharedPrecompiledHeaders/Fish_Prefix-fbuhdzvjpbgagcanzfqomyfhzytm/Fish_Prefix.pch -c /Users/dl106/Desktop/Fish/Fish/Classes/GameViewController.m -o /Users/dl106/Desktop/Fish/Fish/build/Fish.build/Debug-iphoneos/Fish.build/Objects-normal/armv7/GameViewController.o0#
 
 CCompileC build/Fish.build/Debug-iphoneos/Fish.build/Objects-normal/armv7/GameViewController.o /Users/dl106/Desktop/NewFish/Fish/Classes/GameViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s337468202.399543
-e337468202.690669
+s337474805.877780
+e337474806.119966
 r1
 xCompileC
 xbuild/Fish.build/Debug-iphoneos/Fish.build/Objects-normal/armv7/GameViewController.o
@@ -4733,7 +4735,7 @@ xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@70"Compile /Users/dl106/Desktop/NewFish/Fish/Classes/GameViewController.m337468202#337468202#0(0"0(0#0#62"/Users/dl106/Desktop/NewFish/Fish/Classes/GameViewController.m2464039568#1651"    cd /Users/dl106/Desktop/NewFish/Fish    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/dl106/Desktop/NewFish/Fish/build/Fish.build/Debug-iphoneos/Fish.build/Fish-generated-files.hmap -I/Users/dl106/Desktop/NewFish/Fish/build/Fish.build/Debug-iphoneos/Fish.build/Fish-own-target-headers.hmap -I/Users/dl106/Desktop/NewFish/Fish/build/Fish.build/Debug-iphoneos/Fish.build/Fish-all-target-headers.hmap -iquote /Users/dl106/Desktop/NewFish/Fish/build/Fish.build/Debug-iphoneos/Fish.build/Fish-project-headers.hmap -F/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos -I/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/include -I/Users/dl106/Desktop/NewFish/Fish/build/Fish.build/Debug-iphoneos/Fish.build/DerivedSources/armv7 -I/Users/dl106/Desktop/NewFish/Fish/build/Fish.build/Debug-iphoneos/Fish.build/DerivedSources -include /var/folders/2X/2XWXbhY0HayA4NdwuGNXi-6scts/-Caches-/com.apple.Xcode.305701790/SharedPrecompiledHeaders/Fish_Prefix-alcmdwvknougubfuueykjewgcjlt/Fish_Prefix.pch -c /Users/dl106/Desktop/NewFish/Fish/Classes/GameViewController.m -o /Users/dl106/Desktop/NewFish/Fish/build/Fish.build/Debug-iphoneos/Fish.build/Objects-normal/armv7/GameViewController.o0#
+lSLF07#2@70"Compile /Users/dl106/Desktop/NewFish/Fish/Classes/GameViewController.m337474805#337474806#0(0"0(0#0#62"/Users/dl106/Desktop/NewFish/Fish/Classes/GameViewController.m4261848#1651"    cd /Users/dl106/Desktop/NewFish/Fish    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/dl106/Desktop/NewFish/Fish/build/Fish.build/Debug-iphoneos/Fish.build/Fish-generated-files.hmap -I/Users/dl106/Desktop/NewFish/Fish/build/Fish.build/Debug-iphoneos/Fish.build/Fish-own-target-headers.hmap -I/Users/dl106/Desktop/NewFish/Fish/build/Fish.build/Debug-iphoneos/Fish.build/Fish-all-target-headers.hmap -iquote /Users/dl106/Desktop/NewFish/Fish/build/Fish.build/Debug-iphoneos/Fish.build/Fish-project-headers.hmap -F/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos -I/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/include -I/Users/dl106/Desktop/NewFish/Fish/build/Fish.build/Debug-iphoneos/Fish.build/DerivedSources/armv7 -I/Users/dl106/Desktop/NewFish/Fish/build/Fish.build/Debug-iphoneos/Fish.build/DerivedSources -include /var/folders/2X/2XWXbhY0HayA4NdwuGNXi-6scts/-Caches-/com.apple.Xcode.305701790/SharedPrecompiledHeaders/Fish_Prefix-alcmdwvknougubfuueykjewgcjlt/Fish_Prefix.pch -c /Users/dl106/Desktop/NewFish/Fish/Classes/GameViewController.m -o /Users/dl106/Desktop/NewFish/Fish/build/Fish.build/Debug-iphoneos/Fish.build/Objects-normal/armv7/GameViewController.o0#
 
 CCompileC build/Fish.build/Debug-iphoneos/Fish.build/Objects-normal/armv7/GameViewController.o /Users/dl106/Desktop/OldFish/Fish/Classes/GameViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s336620798.196072
@@ -4996,8 +4998,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@66"Compile /Users/dl106/Desktop/NewFish/Fish/Classes/SpitProjectile.m337162308#337162309#0(0"0(0#0#58"/Users/dl106/Desktop/NewFish/Fish/Classes/SpitProjectile.m2464039568#1643"    cd /Users/dl106/Desktop/NewFish/Fish    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/dl106/Desktop/NewFish/Fish/build/Fish.build/Debug-iphoneos/Fish.build/Fish-generated-files.hmap -I/Users/dl106/Desktop/NewFish/Fish/build/Fish.build/Debug-iphoneos/Fish.build/Fish-own-target-headers.hmap -I/Users/dl106/Desktop/NewFish/Fish/build/Fish.build/Debug-iphoneos/Fish.build/Fish-all-target-headers.hmap -iquote /Users/dl106/Desktop/NewFish/Fish/build/Fish.build/Debug-iphoneos/Fish.build/Fish-project-headers.hmap -F/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos -I/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/include -I/Users/dl106/Desktop/NewFish/Fish/build/Fish.build/Debug-iphoneos/Fish.build/DerivedSources/armv7 -I/Users/dl106/Desktop/NewFish/Fish/build/Fish.build/Debug-iphoneos/Fish.build/DerivedSources -include /var/folders/2X/2XWXbhY0HayA4NdwuGNXi-6scts/-Caches-/com.apple.Xcode.305701790/SharedPrecompiledHeaders/Fish_Prefix-alcmdwvknougubfuueykjewgcjlt/Fish_Prefix.pch -c /Users/dl106/Desktop/NewFish/Fish/Classes/SpitProjectile.m -o /Users/dl106/Desktop/NewFish/Fish/build/Fish.build/Debug-iphoneos/Fish.build/Objects-normal/armv7/SpitProjectile.o0#
 
 CCompileC build/Fish.build/Debug-iphoneos/Fish.build/Objects-normal/armv7/Sprite.o /Users/dl106/Desktop/NewFish/Fish/Classes/Sprite.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s337468202.690826
-e337468202.897802
+s337474866.524849
+e337474866.840150
 r1
 xCompileC
 xbuild/Fish.build/Debug-iphoneos/Fish.build/Objects-normal/armv7/Sprite.o
@@ -5006,7 +5008,7 @@ xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@58"Compile /Users/dl106/Desktop/NewFish/Fish/Classes/Sprite.m337468202#337468202#0(0"0(0#0#50"/Users/dl106/Desktop/NewFish/Fish/Classes/Sprite.m2464039568#1627"    cd /Users/dl106/Desktop/NewFish/Fish    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/dl106/Desktop/NewFish/Fish/build/Fish.build/Debug-iphoneos/Fish.build/Fish-generated-files.hmap -I/Users/dl106/Desktop/NewFish/Fish/build/Fish.build/Debug-iphoneos/Fish.build/Fish-own-target-headers.hmap -I/Users/dl106/Desktop/NewFish/Fish/build/Fish.build/Debug-iphoneos/Fish.build/Fish-all-target-headers.hmap -iquote /Users/dl106/Desktop/NewFish/Fish/build/Fish.build/Debug-iphoneos/Fish.build/Fish-project-headers.hmap -F/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos -I/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/include -I/Users/dl106/Desktop/NewFish/Fish/build/Fish.build/Debug-iphoneos/Fish.build/DerivedSources/armv7 -I/Users/dl106/Desktop/NewFish/Fish/build/Fish.build/Debug-iphoneos/Fish.build/DerivedSources -include /var/folders/2X/2XWXbhY0HayA4NdwuGNXi-6scts/-Caches-/com.apple.Xcode.305701790/SharedPrecompiledHeaders/Fish_Prefix-alcmdwvknougubfuueykjewgcjlt/Fish_Prefix.pch -c /Users/dl106/Desktop/NewFish/Fish/Classes/Sprite.m -o /Users/dl106/Desktop/NewFish/Fish/build/Fish.build/Debug-iphoneos/Fish.build/Objects-normal/armv7/Sprite.o0#
+lSLF07#2@58"Compile /Users/dl106/Desktop/NewFish/Fish/Classes/Sprite.m337474866#337474866#0(0"0(0#0#50"/Users/dl106/Desktop/NewFish/Fish/Classes/Sprite.m2464039568#1627"    cd /Users/dl106/Desktop/NewFish/Fish    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/dl106/Desktop/NewFish/Fish/build/Fish.build/Debug-iphoneos/Fish.build/Fish-generated-files.hmap -I/Users/dl106/Desktop/NewFish/Fish/build/Fish.build/Debug-iphoneos/Fish.build/Fish-own-target-headers.hmap -I/Users/dl106/Desktop/NewFish/Fish/build/Fish.build/Debug-iphoneos/Fish.build/Fish-all-target-headers.hmap -iquote /Users/dl106/Desktop/NewFish/Fish/build/Fish.build/Debug-iphoneos/Fish.build/Fish-project-headers.hmap -F/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos -I/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/include -I/Users/dl106/Desktop/NewFish/Fish/build/Fish.build/Debug-iphoneos/Fish.build/DerivedSources/armv7 -I/Users/dl106/Desktop/NewFish/Fish/build/Fish.build/Debug-iphoneos/Fish.build/DerivedSources -include /var/folders/2X/2XWXbhY0HayA4NdwuGNXi-6scts/-Caches-/com.apple.Xcode.305701790/SharedPrecompiledHeaders/Fish_Prefix-alcmdwvknougubfuueykjewgcjlt/Fish_Prefix.pch -c /Users/dl106/Desktop/NewFish/Fish/Classes/Sprite.m -o /Users/dl106/Desktop/NewFish/Fish/build/Fish.build/Debug-iphoneos/Fish.build/Objects-normal/armv7/Sprite.o0#
 
 CCompileC build/Fish.build/Debug-iphoneos/Fish.build/Objects-normal/armv7/main.o "/Users/dl106/Desktop/untitled folder/Fish/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
 s336284619.616976
@@ -6017,13 +6019,13 @@ x/Users/dl106/Desktop/Fish/build/Debug-iphoneos/Fish.app/Fish
 lSLF07#2@86"GenerateDSYMFile build/Debug-iphoneos/Fish.app.dSYM build/Debug-iphoneos/Fish.app/Fish336365224#336365224#0(0"0(0#0#60"/Users/dl106/Desktop/Fish/build/Debug-iphoneos/Fish.app/Fish2464039568#314"    cd /Users/dl106/Desktop/Fish    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/dl106/Desktop/Fish/build/Debug-iphoneos/Fish.app/Fish -o /Users/dl106/Desktop/Fish/build/Debug-iphoneos/Fish.app.dSYM0#
 
 CGenerateDSYMFile /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app.dSYM /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/Fish
-s337468202.982769
-e337468203.172092
+s337474866.920836
+e337474867.016646
 r1
 xGenerateDSYMFile
 x/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app.dSYM
 x/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/Fish
-lSLF07#2@86"GenerateDSYMFile build/Debug-iphoneos/Fish.app.dSYM build/Debug-iphoneos/Fish.app/Fish337468202#337468203#0(0"0(0#0#68"/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/Fish2464039568#338"    cd /Users/dl106/Desktop/NewFish/Fish    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/Fish -o /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app.dSYM0#
+lSLF07#2@86"GenerateDSYMFile build/Debug-iphoneos/Fish.app.dSYM build/Debug-iphoneos/Fish.app/Fish337474866#337474867#0(0"0(0#0#68"/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/Fish2464039568#338"    cd /Users/dl106/Desktop/NewFish/Fish    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/Fish -o /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app.dSYM0#
 
 CGenerateDSYMFile /Users/dl106/Desktop/OldFish/Fish/build/Debug-iphoneos/Fish.app.dSYM /Users/dl106/Desktop/OldFish/Fish/build/Debug-iphoneos/Fish.app/Fish
 s336622713.304037
@@ -6086,14 +6088,14 @@ xarmv7
 lSLF07#2@65"Link /Users/dl106/Desktop/Fish/build/Debug-iphoneos/Fish.app/Fish336365224#336365224#0(0"0(0#0#0"2464039568#742"    cd /Users/dl106/Desktop/Fish    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/dl106/Desktop/Fish/build/Debug-iphoneos -F/Users/dl106/Desktop/Fish/build/Debug-iphoneos -filelist /Users/dl106/Desktop/Fish/build/Fish.build/Debug-iphoneos/Fish.build/Objects-normal/armv7/Fish.LinkFileList -dead_strip -miphoneos-version-min=4.3 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/dl106/Desktop/Fish/build/Debug-iphoneos/Fish.app/Fish0#
 
 CLd /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/Fish normal armv7
-s337468202.897944
-e337468202.982603
+s337474866.840278
+e337474866.920661
 r1
 xLd
 x/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/Fish
 xnormal
 xarmv7
-lSLF07#2@73"Link /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/Fish337468202#337468202#0(0"0(0#0#0"2464039568#782"    cd /Users/dl106/Desktop/NewFish/Fish    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos -F/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos -filelist /Users/dl106/Desktop/NewFish/Fish/build/Fish.build/Debug-iphoneos/Fish.build/Objects-normal/armv7/Fish.LinkFileList -dead_strip -miphoneos-version-min=4.3 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/Fish0#
+lSLF07#2@73"Link /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/Fish337474866#337474866#0(0"0(0#0#0"2464039568#782"    cd /Users/dl106/Desktop/NewFish/Fish    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos -F/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos -filelist /Users/dl106/Desktop/NewFish/Fish/build/Fish.build/Debug-iphoneos/Fish.build/Objects-normal/armv7/Fish.LinkFileList -dead_strip -miphoneos-version-min=4.3 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app/Fish0#
 
 CLd /Users/dl106/Desktop/OldFish/Fish/build/Debug-iphoneos/Fish.app/Fish normal armv7
 s336622713.251318
@@ -6356,12 +6358,12 @@ x/Users/dl106/Desktop/Fish/build/Debug-iphoneos/Fish.app
 lSLF07#2@61"Touch /Users/dl106/Desktop/Fish/build/Debug-iphoneos/Fish.app336365224#336365224#0(0"0(0#0#0"2464039568#235"    cd /Users/dl106/Desktop/Fish    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/dl106/Desktop/Fish/build/Debug-iphoneos/Fish.app0#
 
 CTouch /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app
-s337468203.172315
-e337468203.176771
+s337474867.016868
+e337474867.021312
 r1
 xTouch
 x/Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app
-lSLF07#2@69"Touch /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app337468203#337468203#0(0"0(0#0#0"2464039568#251"    cd /Users/dl106/Desktop/NewFish/Fish    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app0#
+lSLF07#2@69"Touch /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app337474867#337474867#0(0"0(0#0#0"2464039568#251"    cd /Users/dl106/Desktop/NewFish/Fish    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphoneos/Fish.app0#
 
 CTouch /Users/dl106/Desktop/OldFish/Fish/build/Debug-iphoneos/Fish.app
 s336622713.370134

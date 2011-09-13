@@ -1,0 +1,10 @@
+/Users/dl106/Desktop/NewFish/Fish/NewFishShould.m: In function '-[NewFishShould setUp]':
+/Users/dl106/Desktop/NewFish/Fish/NewFishShould.m:17: error: 'aFish' undeclared (first use in this function)
+/Users/dl106/Desktop/NewFish/Fish/NewFishShould.m:17: error: (Each undeclared identifier is reported only once
+/Users/dl106/Desktop/NewFish/Fish/NewFishShould.m:17: error: for each function it appears in.)
+/Users/dl106/Desktop/NewFish/Fish/NewFishShould.m: In function '-[NewFishShould tearDown]':
+/Users/dl106/Desktop/NewFish/Fish/NewFishShould.m:22: error: 'aFish' undeclared (first use in this function)
+/Users/dl106/Desktop/NewFish/Fish/NewFishShould.m: In function '-[NewFishShould testHaveTimer]':
+/Users/dl106/Desktop/NewFish/Fish/NewFishShould.m:27: error: 'aFish' undeclared (first use in this function)
+/Users/dl106/Desktop/NewFish/Fish/NewFishShould.m: In function '-[NewFishShould testBeAbleToPause]':
+/Users/dl106/Desktop/NewFish/Fish/NewFishShould.m:32: error: 'aFish' undeclared (first use in this function)

@@ -9,9 +9,10 @@
 
 #import <SenTestingKit/SenTestingKit.h>
 
+@class Fish;
 
 @interface NewFishShould : SenTestCase {
-
+	Fish *aFish;
 }
 
 
