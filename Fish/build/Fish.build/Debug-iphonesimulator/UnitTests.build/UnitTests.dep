@@ -1,7 +1,7 @@
-804328a3692cfad808f0823410260702 730ae018f771faf2ef2b4f3b751b5c18 ffffffffffffffffffffffffffffffff 136 /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphonesimulator/UnitTests.octest
+8388d1be8669fbff885ccd0b8faa0b90 730ae018f771faf2ef2b4f3b751b5c18 ffffffffffffffffffffffffffffffff 136 /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphonesimulator/UnitTests.octest
 00000000000000000000000000000000 1ec7841dcb5d6201ab9796e68c08637b ffffffffffffffffffffffffffffffff 102 /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphonesimulator/UnitTests.octest.dSYM
-93e092e28875fefa90e8f6a3460b8881 b30a5dbee60a182408d689a9d2ada8ff ffffffffffffffffffffffffffffffff 50128 /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphonesimulator/UnitTests.octest/UnitTests
-000000004e6c5da800000000000001a4 c9459fe1b367b187640b21b9c1ec424e ffffffffffffffffffffffffffffffff 51976 /Users/dl106/Desktop/NewFish/Fish/build/Fish.build/Debug-iphonesimulator/UnitTests.build/Objects-normal/i386/NewFishShould.o
+902b6bff6730ffdd1044b99cd9878413 b30a5dbee60a182408d689a9d2ada8ff ffffffffffffffffffffffffffffffff 50584 /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphonesimulator/UnitTests.octest/UnitTests
+000000004d54deaf0000000000000817 03cbf91da211dc6e80ac4f3f9f8c0350 ffffffffffffffffffffffffffffffff 5124 /Users/dl106/Desktop/NewFish/Fish/build/Fish.build/Debug-iphonesimulator/UnitTests.build/Objects-normal/i386/NewSpriteShould.o
 00000000033e7f2d0000000000000a1b 78c431735a156a203f31322df90ed637 ffffffffffffffffffffffffffffffff 39088 /Users/dl106/Desktop/NewFish/Fish/build/Fish.build/Debug-iphonesimulator/UnitTests.build/Objects-normal/i386/Pollen.o
 00000000033e73930000000000000b5f 0c72252f21f97379135775f1d1dc7c1d ffffffffffffffffffffffffffffffff 40824 /Users/dl106/Desktop/NewFish/Fish/build/Fish.build/Debug-iphonesimulator/UnitTests.build/Objects-normal/i386/SpitProjectile.o
 00000000042fb36800000000000037b2 46faee7d280dcc6509221eb9e2018b3d ffffffffffffffffffffffffffffffff 48928 /Users/dl106/Desktop/NewFish/Fish/build/Fish.build/Debug-iphonesimulator/UnitTests.build/Objects-normal/i386/Sprite.o
@@ -10,6 +10,7 @@
 00000000000285000000000000001d3b a282e3b17d347606d7cc64bf88ed65bd ffffffffffffffffffffffffffffffff 11064 /Users/dl106/Desktop/NewFish/Fish/build/Fish.build/Debug-iphonesimulator/UnitTests.build/Objects-normal/i386/AccController.o
 00000000033ce6d30000000000001d5c 745a474bc2a7be3ae004004b3def3a6f ffffffffffffffffffffffffffffffff 50136 /Users/dl106/Desktop/NewFish/Fish/build/Fish.build/Debug-iphonesimulator/UnitTests.build/Objects-normal/i386/Fish.o
 ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 50472 /Users/dl106/Desktop/NewFish/Fish/build/Fish.build/Debug-iphonesimulator/UnitTests.build/Objects-normal/i386/FishAppDelegate.o
+000000004e6c5e4e0000000000000671 c9459fe1b367b187640b21b9c1ec424e ffffffffffffffffffffffffffffffff 51976 /Users/dl106/Desktop/NewFish/Fish/build/Fish.build/Debug-iphonesimulator/UnitTests.build/Objects-normal/i386/NewFishShould.o
 000000004e6871020000000000000283 2d17088a1c48061fcd095c182392d724 ffffffffffffffffffffffffffffffff 40468 /Users/dl106/Desktop/NewFish/Fish/build/Fish.build/Debug-iphonesimulator/UnitTests.build/Objects-normal/i386/AnimalFur.o
 00000000000387e00000000000000009 e0fb1b73e58778a4d7a5360c11a06b6d ffffffffffffffffffffffffffffffff 9208 /Users/dl106/Desktop/NewFish/Fish/build/Fish.build/Debug-iphonesimulator/UnitTests.build/Objects-normal/i386/NewAnimalFurShould.o
 ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 442 /Users/dl106/Desktop/NewFish/Fish/build/Debug-iphonesimulator/UnitTests.octest/Info.plist

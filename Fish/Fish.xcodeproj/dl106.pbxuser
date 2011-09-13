@@ -34,7 +34,7 @@
 		activeSDKPreference = iphonesimulator4.3;
 		activeTarget = B27727D214037E76004751A1 /* UnitTests */;
 		addToTargets = (
-			1D6058900D05DD3D006BFB54 /* Fish */,
+			B27727D214037E76004751A1 /* UnitTests */,
 		);
 		breakpoints = (
 			B25743DD1418A011009C006B /* GameViewController.m:171 */,
@@ -74,7 +74,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					1101,
+					834,
 					20,
 					48,
 					43,
@@ -96,7 +96,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					1061,
+					794,
 					60,
 					20,
 					48,
@@ -255,21 +255,21 @@
 	};
 	B2194504140C595000CC80D4 /* NewFishShould.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1279, 558}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1012, 528}}";
 			sepNavSelRange = "{248, 0}";
 			sepNavVisRange = "{0, 260}";
 		};
 	};
 	B2194505140C595000CC80D4 /* NewFishShould.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1012, 793}}";
-			sepNavSelRange = "{1000, 0}";
-			sepNavVisRange = "{262, 741}";
+			sepNavIntBoundsRect = "{{0, 0}, {1012, 832}}";
+			sepNavSelRange = "{587, 0}";
+			sepNavVisRange = "{263, 807}";
 		};
 	};
 	B219455A140C5DD000CC80D4 /* NewDustMiteShould.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1279, 558}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1012, 528}}";
 			sepNavSelRange = "{248, 16}";
 			sepNavVisRange = "{0, 274}";
 		};
@@ -349,7 +349,7 @@
 	};
 	B225D9751406276800DF3B3F /* NewAnimalFurShould.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1279, 520}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1012, 528}}";
 			sepNavSelRange = "{233, 0}";
 			sepNavVisRange = "{0, 240}";
 		};
@@ -371,9 +371,9 @@
 	};
 	B225D983140628A600DF3B3F /* AnimalFur.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1279, 715}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1012, 715}}";
 			sepNavSelRange = "{504, 0}";
-			sepNavVisRange = "{18, 672}";
+			sepNavVisRange = "{212, 660}";
 			sepNavWindowFrame = "{{517, 234}, {794, 728}}";
 		};
 	};
@@ -701,9 +701,9 @@
 	};
 	B29BC191140228D900A136FA /* Fish.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1012, 1703}}";
-			sepNavSelRange = "{1727, 0}";
-			sepNavVisRange = "{1512, 668}";
+			sepNavIntBoundsRect = "{{0, 0}, {1125, 1703}}";
+			sepNavSelRange = "{176, 0}";
+			sepNavVisRange = "{0, 624}";
 			sepNavWindowFrame = "{{790, 288}, {794, 728}}";
 		};
 	};
@@ -759,7 +759,7 @@
 		fRef = B2194505140C595000CC80D4 /* NewFishShould.m */;
 		name = "NewFishShould.m: 39";
 		rLen = 0;
-		rLoc = 1005;
+		rLoc = 1058;
 		rType = 0;
 		vrLen = 508;
 		vrLoc = 0;
@@ -849,7 +849,7 @@
 		fRef = B2194505140C595000CC80D4 /* NewFishShould.m */;
 		name = "NewFishShould.m: 44";
 		rLen = 0;
-		rLoc = 717;
+		rLoc = 750;
 		rType = 0;
 		vrLen = 733;
 		vrLoc = 76;
@@ -859,10 +859,24 @@
 		fRef = B2194505140C595000CC80D4 /* NewFishShould.m */;
 		name = "NewFishShould.m: 44";
 		rLen = 0;
-		rLoc = 717;
+		rLoc = 750;
 		rType = 0;
 		vrLen = 675;
 		vrLoc = 138;
+	};
+	B2B98508141ED66400054DBB /* NewSpriteShould.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1012, 528}}";
+			sepNavSelRange = "{91, 0}";
+			sepNavVisRange = "{0, 97}";
+		};
+	};
+	B2B98509141ED66400054DBB /* NewSpriteShould.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1012, 528}}";
+			sepNavSelRange = "{204, 0}";
+			sepNavVisRange = "{0, 212}";
+		};
 	};
 	B2B98CB3140F460400C367F1 /* dustMite.png */ = {
 		uiCtxt = {

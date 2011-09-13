@@ -60,6 +60,7 @@
 		B2B53770140DA6AF001317FC /* asthmapediaFluVirus.png in Resources */ = {isa = PBXBuildFile; fileRef = B2B5376A140DA6AE001317FC /* asthmapediaFluVirus.png */; };
 		B2B53771140DA6AF001317FC /* asthmapediaPollen.png in Resources */ = {isa = PBXBuildFile; fileRef = B2B5376B140DA6AE001317FC /* asthmapediaPollen.png */; };
 		B2B53772140DA6AF001317FC /* asthmapediaSmoke.png in Resources */ = {isa = PBXBuildFile; fileRef = B2B5376C140DA6AE001317FC /* asthmapediaSmoke.png */; };
+		B2B9850A141ED66400054DBB /* NewSpriteShould.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B98509141ED66400054DBB /* NewSpriteShould.m */; };
 		B2B98CB4140F460400C367F1 /* dustMite.png in Resources */ = {isa = PBXBuildFile; fileRef = B2B98CB3140F460400C367F1 /* dustMite.png */; };
 		B2C8673C140B19E100E2EA14 /* OptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C8673A140B19E100E2EA14 /* OptionsViewController.m */; };
 		B2C8673D140B19E100E2EA14 /* OptionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2C8673B140B19E100E2EA14 /* OptionsViewController.xib */; };
@@ -155,6 +156,8 @@
 		B2B5376A140DA6AE001317FC /* asthmapediaFluVirus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asthmapediaFluVirus.png; sourceTree = "<group>"; };
 		B2B5376B140DA6AE001317FC /* asthmapediaPollen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asthmapediaPollen.png; sourceTree = "<group>"; };
 		B2B5376C140DA6AE001317FC /* asthmapediaSmoke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asthmapediaSmoke.png; sourceTree = "<group>"; };
+		B2B98508141ED66400054DBB /* NewSpriteShould.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewSpriteShould.h; sourceTree = "<group>"; };
+		B2B98509141ED66400054DBB /* NewSpriteShould.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewSpriteShould.m; sourceTree = "<group>"; };
 		B2B98CB3140F460400C367F1 /* dustMite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dustMite.png; sourceTree = "<group>"; };
 		B2C86739140B19E100E2EA14 /* OptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsViewController.h; sourceTree = "<group>"; };
 		B2C8673A140B19E100E2EA14 /* OptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsViewController.m; sourceTree = "<group>"; };
@@ -238,6 +241,8 @@
 				B2194505140C595000CC80D4 /* NewFishShould.m */,
 				B219455A140C5DD000CC80D4 /* NewDustMiteShould.h */,
 				B219455B140C5DD000CC80D4 /* NewDustMiteShould.m */,
+				B2B98508141ED66400054DBB /* NewSpriteShould.h */,
+				B2B98509141ED66400054DBB /* NewSpriteShould.m */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -592,6 +597,7 @@
 				B2B2DBA91418694A00D40994 /* Sprite.m in Sources */,
 				B257453E1418AE6A009C006B /* SpitProjectile.m in Sources */,
 				B264C4551419B4990060A85A /* Pollen.m in Sources */,
+				B2B9850A141ED66400054DBB /* NewSpriteShould.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
