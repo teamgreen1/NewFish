@@ -8,6 +8,7 @@
 
 #import "GameViewController.h"
 #import "FishViewController.h"
+#import "LevelSelectViewController.h"
 #import "Fish.h"
 #import "DustMite.h"
 #import "AnimalFur.h"
@@ -62,7 +63,7 @@ int score = 0;
 
 
 /*
- * What to do when the pause button is pressed
+ * What to do when the continue button is pressed
  */
 -(IBAction)continueGame{
 	//Prevents Screen Locking
@@ -80,6 +81,16 @@ int score = 0;
 	mainMenuButton.hidden = TRUE;
 	pauseButton.hidden = FALSE;
 	
+}
+
+/*
+ *Open the level select menu
+ */
+-(IBAction)menuItemLevelSelect
+{
+	LevelSelectViewController * levelView = [[LevelSelectViewController alloc] initWithNibName:NULL bundle:NULL];
+	
+	[self presentModalViewController:levelView animated:NO];
 }
 
 -(void)toggleTimer{

@@ -252,6 +252,15 @@
 					</object>
 					<int key="connectionID">26</int>
 				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">menuItemLevelSelect</string>
+						<reference key="source" ref="345724712"/>
+						<reference key="destination" ref="841351856"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<int key="connectionID">27</int>
+				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<object class="NSArray" key="orderedObjects">
@@ -352,7 +361,7 @@
 					<object class="NSAffineTransform">
 						<bytes key="NSTransformStruct">P4AAAL+AAABDMgAAxBOAAA</bytes>
 					</object>
-					<string>{{323, 91}, {783, 915}}</string>
+					<string>{{323, 0}, {783, 1006}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<object class="NSAffineTransform">
@@ -376,7 +385,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">26</int>
+			<int key="maxID">27</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -390,10 +399,12 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>continueGame</string>
 							<string>goToMainMenu</string>
+							<string>menuItemLevelSelect</string>
 							<string>pause</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>id</string>
 							<string>id</string>
 							<string>id</string>
 							<string>id</string>
@@ -405,6 +416,7 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>continueGame</string>
 							<string>goToMainMenu</string>
+							<string>menuItemLevelSelect</string>
 							<string>pause</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
@@ -415,6 +427,10 @@
 							</object>
 							<object class="IBActionInfo">
 								<string key="name">goToMainMenu</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
+								<string key="name">menuItemLevelSelect</string>
 								<string key="candidateClassName">id</string>
 							</object>
 							<object class="IBActionInfo">

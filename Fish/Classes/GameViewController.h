@@ -23,6 +23,8 @@
 -(IBAction)goToMainMenu;
 -(IBAction)pause;
 -(IBAction)continueGame;
+-(IBAction)menuItemLevelSelect;
+
 
 -(void)checkCollision;
 -(void)toggleTimer;
